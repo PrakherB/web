@@ -1,0 +1,32 @@
+{
+  "url": "https://starbucks.com",
+  "title": "Starbucks Coffee Company",
+  "meta_description": "More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.",
+  "classification": {
+    "industry": "Snack and Nonalcoholic Beverage Bars",
+    "naics_code": "722515",
+    "confidence": 0.95,
+    "method": "domain_override",
+    "fallback_category": null,
+    "total_industries_considered": 1012
+  },
+  "key_business_phrases": [],
+  "business_keywords": {
+    "automotive": 5,
+    "food_service": 12,
+    "retail": 8,
+    "technology": 4,
+    "fitness": 0,
+    "manufacturing": 0,
+    "energy": 0,
+    "real_estate": 1,
+    "apparel": 0,
+    "finance": 0,
+    "healthcare": 0
+  },
+  "content_statistics": {
+    "headers_found": 16,
+    "navigation_items": 15,
+    "content_length": 1464
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://apple.com",
+  "title": "Apple",
+  "meta_description": "Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.",
+  "classification": {
+    "industry": "Unknown",
+    "naics_code": "336111",
+    "confidence": 0.8,
+    "method": "pattern_match",
+    "fallback_category": null,
+    "total_industries_considered": 1012
+  },
+  "key_business_phrases": [],
+  "business_keywords": {
+    "automotive": 7,
+    "food_service": 1,
+    "retail": 8,
+    "technology": 19,
+    "fitness": 2,
+    "manufacturing": 0,
+    "energy": 2,
+    "real_estate": 5,
+    "apparel": 0,
+    "finance": 1,
+    "healthcare": 0
+  },
+  "content_statistics": {
+    "headers_found": 56,
+    "navigation_items": 15,
+    "content_length": 3000
+  }
+}

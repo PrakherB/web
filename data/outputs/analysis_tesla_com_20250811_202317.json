@@ -1,0 +1,32 @@
+{
+  "url": "https://tesla.com",
+  "title": "Access Denied",
+  "meta_description": "None",
+  "classification": {
+    "industry": "Unknown",
+    "naics_code": "336111",
+    "confidence": 0.95,
+    "method": "domain_override",
+    "fallback_category": null,
+    "total_industries_considered": 1012
+  },
+  "key_business_phrases": [],
+  "business_keywords": {
+    "automotive": 1,
+    "food_service": 0,
+    "retail": 0,
+    "technology": 0,
+    "fitness": 0,
+    "manufacturing": 0,
+    "energy": 0,
+    "real_estate": 0,
+    "apparel": 0,
+    "finance": 0,
+    "healthcare": 0
+  },
+  "content_statistics": {
+    "headers_found": 1,
+    "navigation_items": 0,
+    "content_length": 197
+  }
+}

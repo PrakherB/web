@@ -1,0 +1,32 @@
+{
+  "url": "https://facebook.com",
+  "title": "Facebook – log in or sign up",
+  "meta_description": "Log in to Facebook to start sharing and connecting with your friends, family and people you know.",
+  "classification": {
+    "industry": "Full-Service Restaurants",
+    "naics_code": "722511",
+    "confidence": 0.8,
+    "method": "keyword_category",
+    "fallback_category": null,
+    "total_industries_considered": 1012
+  },
+  "key_business_phrases": [],
+  "business_keywords": {
+    "automotive": 3,
+    "food_service": 4,
+    "retail": 1,
+    "technology": 2,
+    "fitness": 0,
+    "manufacturing": 0,
+    "energy": 0,
+    "real_estate": 0,
+    "apparel": 0,
+    "finance": 0,
+    "healthcare": 1
+  },
+  "content_statistics": {
+    "headers_found": 1,
+    "navigation_items": 0,
+    "content_length": 317
+  }
+}

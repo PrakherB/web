@@ -1,0 +1,32 @@
+{
+  "url": "https://tesla.com",
+  "title": "",
+  "meta_description": "None",
+  "classification": {
+    "industry": "Custom Computer Programming Services",
+    "naics_code": "541511",
+    "confidence": 0.5,
+    "method": "default_fallback",
+    "fallback_category": "Professional, Scientific, and Technical Services",
+    "total_industries_considered": 1012
+  },
+  "key_business_phrases": [],
+  "business_keywords": {
+    "automotive": 0,
+    "food_service": 0,
+    "retail": 0,
+    "technology": 0,
+    "fitness": 0,
+    "manufacturing": 0,
+    "energy": 0,
+    "real_estate": 0,
+    "apparel": 0,
+    "finance": 0,
+    "healthcare": 0
+  },
+  "content_statistics": {
+    "headers_found": 0,
+    "navigation_items": 0,
+    "content_length": 0
+  }
+}
