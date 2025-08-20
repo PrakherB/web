@@ -134,3 +134,38 @@ class NAICSCode(db.Model):
             'industry': self.industry,
             'keywords': json.loads(self.keywords) if self.keywords else []
         }
+
+class DesignSample(db.Model):
+    __tablename__ = 'design_samples'
+
+    id = db.Column(db.Integer, primary_key=True)
+    website_url = db.Column(db.String(255), nullable=False)
+    naics_code = db.Column(db.String(10))
+    industry_name = db.Column(db.String(255))
+    screenshot_url = db.Column(db.String(255))
+    design_features = db.Column(db.JSON)
+    color_palette = db.Column(db.JSON)
+    typography_info = db.Column(db.JSON)
+    layout_type = db.Column(db.String(100))
+    mobile_responsive = db.Column(db.Boolean)
+    performance_score = db.Column(db.Integer)
+    created_date = db.Column(db.DateTime, default=datetime.utcnow)
+
+    def __repr__(self):
+        return f'<DesignSample {self.website_url}>'
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'website_url': self.website_url,
+            'naics_code': self.naics_code,
+            'industry_name': self.industry_name,
+            'screenshot_url': self.screenshot_url,
+            'design_features': self.design_features,
+            'color_palette': self.color_palette,
+            'typography_info': self.typography_info,
+            'layout_type': self.layout_type,
+            'mobile_responsive': self.mobile_responsive,
+            'performance_score': self.performance_score,
+            'created_date': self.created_date.isoformat() if self.created_date else None,
+        }
