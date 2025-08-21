@@ -7,6 +7,7 @@ from src.processors.main_processor import MainProcessor
 from src.classifiers.naics_classifier import NAICSClassifier
 from src.extractors.content_extractor import ContentExtractor
 from src.utils.validation import ValidationUtils
+from src.search.vector_search import find_similar_designs
 import logging
 import traceback
 
@@ -150,6 +151,30 @@ def get_naics_info(code):
         
     except Exception as e:
         logging.error(f"NAICS info error: {str(e)}")
+        return jsonify({
+            'error': 'Internal server error',
+            'message': str(e)
+        }), 500
+
+@app.route('/api/v1/designs/search', methods=['POST'])
+def search_designs():
+    """
+    Searches for similar designs based on a business description.
+    """
+    try:
+        data = request.get_json()
+        if not data or 'business_description' not in data:
+            return jsonify({'error': 'Missing business_description'}), 400
+
+        results = find_similar_designs(
+            business_description=data['business_description'],
+            naics_category=data.get('naics_category'),
+            top_k=data.get('top_k', 10)
+        )
+        return jsonify(results)
+    except Exception as e:
+        logging.error(f"Design search error: {str(e)}")
+        logging.error(traceback.format_exc())
         return jsonify({
             'error': 'Internal server error',
             'message': str(e)
