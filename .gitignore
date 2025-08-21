@@ -34,3 +34,7 @@ logs/*
 .DS_Store
 Thumbs.db
 .DS_Store
+
+# Vector DB
+chroma_db/
+*.db
