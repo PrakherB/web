@@ -1,0 +1,793 @@
+[
+  {
+    "title": "Designing For TV: The Evergreen Pattern That Shapes TV Experiences",
+    "link": "https://smashingmagazine.com/2025/08/designing-tv-evergreen-pattern-shapes-tv-experiences/",
+    "summary": "TV interface design is a unique, fascinating, and often overlooked field. It’s been guided by decades of evolution and innovation, yet still firmly constrained by its legacy. Follow Milan into the history, quirks, and unshakable rules that dictate how we control these devices.",
+    "published_iso": "2025-08-27T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Optimizing PWAs For Different Display Modes",
+    "link": "https://smashingmagazine.com/2025/08/optimizing-pwas-different-display-modes/",
+    "summary": "Progressive Web Apps (PWAs) are a great way to make apps built for the web feel native, but in moving away from a browser environment, we can introduce usability issues. This article covers how we can modify our app depending on what display mode is applied to mitigate these issues.",
+    "published_iso": "2025-08-26T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "A Week In The Life Of An AI-Augmented Designer",
+    "link": "https://smashingmagazine.com/2025/08/week-in-life-ai-augmented-designer/",
+    "summary": "If you are new to using AI in design or curious about integrating AI into your UX process without losing your human touch, this article offers a grounded, day-by-day look at introducing AI into your design workflow.",
+    "published_iso": "2025-08-22T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "The Double-Edged Sustainability Sword Of AI In Web Design",
+    "link": "https://smashingmagazine.com/2025/08/double-edged-sustainability-sword-ai-web-design/",
+    "summary": "AI has introduced huge efficiencies for web designers and is frequently being touted as the key to unlocking sustainable design and development. But do these gains outweigh the environmental cost of using energy-hungry AI tools?",
+    "published_iso": "2025-08-20T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Beyond The Hype: What AI Can Really Do For Product Design",
+    "link": "https://smashingmagazine.com/2025/08/beyond-hype-what-ai-can-do-product-design/",
+    "summary": "AI tools are improving fast, but it’s still not clear how they fit into a real product design workflow. Nikita Samutin walks through four core stages &mdash; from analytics and ideation to prototyping and visual design &mdash; to show where AI fits and where it doesn’t, illustrated with real-world examples.",
+    "published_iso": "2025-08-18T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "The Psychology Of Color In UX And Digital Products",
+    "link": "https://smashingmagazine.com/2025/08/psychology-color-ux-design-digital-products/",
+    "summary": "Rodolpho Henrique guides you through the essential aspects of color in digital design and user experience, from the practical steps of creating effective and scalable color palettes to critical accessibility considerations.",
+    "published_iso": "2025-08-15T15:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "From Line To Layout: How Past Experiences Shape Your Design Career",
+    "link": "https://smashingmagazine.com/2025/08/from-line-to-layout-past-experiences-shape-design-career/",
+    "summary": "Your past shapes who you are as a designer, no matter where your career began or how unexpected your career path may have been. Stephanie Campbell shows how those lessons can sharpen your instincts, strengthen collaboration, and help you become a better designer today.",
+    "published_iso": "2025-08-13T11:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Designing With AI, Not Around It: Practical Advanced Techniques For Product Design Use Cases",
+    "link": "https://smashingmagazine.com/2025/08/designing-with-ai-practical-techniques-product-design/",
+    "summary": "Prompting isn’t just about writing better instructions, but about designing better thinking. Ilia and Marina explore how advanced prompting can empower different product & design use cases, speeding up your workflow and improving results, from research and brainstorming to testing and beyond. Let’s dive in.",
+    "published_iso": "2025-08-11T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "The Power Of The <code>Intl</code> API: A Definitive Guide To Browser-Native Internationalization",
+    "link": "https://smashingmagazine.com/2025/08/power-intl-api-guide-browser-native-internationalization/",
+    "summary": "Internationalization isn’t just translation. It’s about formatting dates, pluralizing words, sorting names, and more, all according to specific locales. Instead of relying on heavy third-party libraries, modern JavaScript offers the Intl API &mdash; a powerful, native way to handle i18n. A quiet reminder that the web truly is worldwide.",
+    "published_iso": "2025-08-08T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Automating Design Systems: Tips And Resources For Getting Started",
+    "link": "https://smashingmagazine.com/2025/08/automating-design-systems-tips-resources/",
+    "summary": "Design systems are more than style guides: they’re made up of workflows, tokens, components, and documentation &mdash; all the stuff teams rely on to build consistent products. As projects grow, keeping everything in sync gets tricky fast. In this article, we’ll look at how smart tooling, combined with automation where it makes sense, can speed things up, reduce errors, and help your team focus on design over maintenance.",
+    "published_iso": "2025-08-06T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "UX Job Interview Helpers",
+    "link": "https://smashingmagazine.com/2025/08/ux-job-interview-helpers/",
+    "summary": "Talking points. Smart questions. A compelling story. This guide helps you prepare for your UX job interview. And remember: no act of kindness, however small, is ever wasted.",
+    "published_iso": "2025-08-05T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Stories Of August (2025 Wallpapers Edition)",
+    "link": "https://smashingmagazine.com/2025/07/desktop-wallpaper-calendars-august-2025/",
+    "summary": "Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers might be for you. The wallpapers are designed with love by the community for the community and can be downloaded for free! Enjoy!",
+    "published_iso": "2025-07-31T11:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "The Core Model: Start FROM The Answer, Not WITH The Solution",
+    "link": "https://smashingmagazine.com/2025/07/core-model-start-from-answer-not-solution/",
+    "summary": "The Core Model is a practical methodology that flips traditional digital development on its head. Instead of starting with solutions or structure, we begin with a hypothesis about what users need and follow a simple framework that brings diverse teams together to create more effective digital experiences. By asking six good questions in the right order, teams align around user tasks and business objectives, creating clarity that transcends organizational boundaries.",
+    "published_iso": "2025-07-30T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Web Components: Working With Shadow DOM",
+    "link": "https://smashingmagazine.com/2025/07/web-components-working-with-shadow-dom/",
+    "summary": "Web Components are more than just Custom Elements. Shadow DOM, HTML Templates, and Custom Elements each play a role. In this article, Russell Beswick demonstrates how Shadow DOM fits into the broader picture, explaining why it matters, when to use it, and how to apply it effectively.",
+    "published_iso": "2025-07-28T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Designing Better UX For Left-Handed People",
+    "link": "https://smashingmagazine.com/2025/07/designing-better-ux-left-handed-people/",
+    "summary": "Today, roughly 10% of people are left-handed. Yet most products &mdash; digital and physical &mdash; aren’t designed with it in mind. Let’s change that. More design patterns in <a href=\"https://smart-interface-design-patterns.com/\">Smart Interface Design Patterns</a>, a **friendly video course on UX** and design patterns by Vitaly.",
+    "published_iso": "2025-07-25T15:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Handling JavaScript Event Listeners With Parameters",
+    "link": "https://smashingmagazine.com/2025/07/handling-javascript-event-listeners-parameters/",
+    "summary": "Event listeners are essential for interactivity in JavaScript, but they can quietly cause memory leaks if not removed properly. And what if your event listener needs parameters? That’s where things get interesting. Amejimaobari Ollornwi shares which JavaScript features make handling parameters with event handlers both possible and well-supported.",
+    "published_iso": "2025-07-21T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Why Non-Native Content Designers Improve Global UX",
+    "link": "https://smashingmagazine.com/2025/07/why-non-native-content-designers-improve-global-ux/",
+    "summary": "Ensuring your product communicates clearly to a global audience is not just about localisation. Even for products that have a proper localisation process, English often remains the default language for UI and communications. This article focuses on how you can make English content clear and inclusive for non-native users. Oleksii offers a practical guide based on his own experience as a non-native English-speaking content designer, defining the user experience for international companies.",
+    "published_iso": "2025-07-18T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Tiny Screens, Big Impact: The Forgotten Art Of Developing Web Apps For Feature Phones",
+    "link": "https://smashingmagazine.com/2025/07/tiny-screens-big-impact-developing-web-apps-feature-phones/",
+    "summary": "Learn why flip phones still matter in 2025, and how you can build and launch web apps for these tiny devices.",
+    "published_iso": "2025-07-16T15:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Design Patterns For AI Interfaces",
+    "link": "https://smashingmagazine.com/2025/07/design-patterns-ai-interfaces/",
+    "summary": "Designing a new AI feature? Where do you even begin? Here’s a simple, practical overview with useful design patterns for better AI experiences.",
+    "published_iso": "2025-07-14T15:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Unmasking The Magic: The Wizard Of Oz Method For UX Research",
+    "link": "https://smashingmagazine.com/2025/07/unmasking-magic-wizard-oz-method-ux-research/",
+    "summary": "The Wizard of Oz method is a proven UX research tool that simulates real interactions to uncover authentic user behavior. Victor Yocco unpacks the core principles of the WOZ method, explores advanced real-world applications, and highlights its unique value, including its relevance in the emerging field of agentic AI.",
+    "published_iso": "2025-07-10T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Droip: The Modern Website Builder WordPress Needed",
+    "link": "https://smashingmagazine.com/2025/07/modern-website-builder-wordpress-droip/",
+    "summary": "Traditional page builders have shaped how we build WordPress sites for years. Let’s take a closer look at [Droip](https://droip.com/), a modern, no-code visual builder, and explore how it redefines the experience with cleaner performance, full design freedom, and zero plugin dependency.",
+    "published_iso": "2025-07-08T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Design Guidelines For Better Notifications UX",
+    "link": "https://smashingmagazine.com/2025/07/design-guidelines-better-notifications-ux/",
+    "summary": "As always in design, timing matters, and so do timely notifications. Let’s explore how we might improve the notifications UX. More design patterns in our <a href=\"https://smart-interface-design-patterns.com\">Smart Interface Design Patterns</a>, a <strong>friendly video course on UX</strong> and design patterns by Vitaly — from complex data tables and nested filters to FAQs and error messages.",
+    "published_iso": "2025-07-07T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "CSS Intelligence: Speculating On The Future Of A Smarter Language",
+    "link": "https://smashingmagazine.com/2025/07/css-intelligence-speculating-future-smarter-language/",
+    "summary": "CSS has evolved from a purely presentational language into one with growing logical powers — thanks to features like container queries, relational pseudo-classes, and the `if()` function. Is it still just for styling, or is it becoming something more? Gabriel Shoyombo explores how smart CSS has become over the years, where it is heading, the challenges it addresses, whether it is becoming too complex, and how developers are reacting to this shift.",
+    "published_iso": "2025-07-02T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Turning User Research Into Real Organizational Change",
+    "link": "https://smashingmagazine.com/2025/07/turning-user-research-into-organizational-change/",
+    "summary": "Bridging the gap between user research insights and actual organizational action — with a clear roadmap for impact.",
+    "published_iso": "2025-07-01T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Never Stop Exploring (July 2025 Wallpapers Edition)",
+    "link": "https://smashingmagazine.com/2025/06/desktop-wallpaper-calendars-july-2025/",
+    "summary": "July is just around the corner, and that means it’s time for a new collection of desktop wallpapers. Created with love by artists and designers from across the globe, they are bound to bring some good vibes to your screen. Enjoy!",
+    "published_iso": "2025-06-30T12:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Can Good UX Protect Older Users From Digital Scams?",
+    "link": "https://smashingmagazine.com/2025/06/can-good-ux-protect-older-users-digital-scams/",
+    "summary": "As online scams become more sophisticated, Carrie Webster explores whether good UX can serve as a frontline defense, particularly for non-tech-savvy older users navigating today’s digital world.",
+    "published_iso": "2025-06-25T12:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Decoding The SVG <code>path</code> Element: Curve And Arc Commands",
+    "link": "https://smashingmagazine.com/2025/06/decoding-svg-path-element-curve-arc-commands/",
+    "summary": "On her quest to teach you how to code vectors by hand, Myriam Frisano’s second installment of a `path` deep dive explores the most complex aspects of SVG’s most powerful element. She’ll help you understand the underlying rules and function of how curves and arcs are constructed. By the end of it, your toolkit is ready to tackle all types of tasks required to draw with code — even if some of the lines twist and turn.",
+    "published_iso": "2025-06-23T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Meet Accessible UX Research, A Brand-New Smashing Book",
+    "link": "https://smashingmagazine.com/2025/06/accessible-ux-research-pre-release/",
+    "summary": "Meet “Accessible UX Research,” our upcoming book to make your UX research inclusive. Learn how to recruit, plan, and design with disabled participants in mind. <strong>Print edition shipping Fall 2025. eBook also available for download in Fall 2025.</strong> <a href=\"https://www.smashingmagazine.com/printed-books/accessible-ux-research/\">Pre-order the book.</a>",
+    "published_iso": "2025-06-20T16:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "CSS Cascade Layers Vs. BEM Vs. Utility Classes: Specificity Control",
+    "link": "https://smashingmagazine.com/2025/06/css-cascade-layers-bem-utility-classes-specificity-control/",
+    "summary": "CSS can be unpredictable — and specificity is often the culprit. Victor Ayomipo breaks down how and why your styles might not behave as expected, and why understanding specificity is better than relying on `!important`.",
+    "published_iso": "2025-06-19T15:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "What I Wish Someone Told Me When I Was Getting Into ARIA",
+    "link": "https://smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/",
+    "summary": "[Accessible Rich Internet Applications (ARIA)](https://www.w3.org/WAI/standards-guidelines/aria/) is an inevitability when working on web accessibility. That said, it’s everyone’s first time learning about ARIA at some point.",
+    "published_iso": "2025-06-16T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Creating The &ldquo;Moving Highlight&rdquo; Navigation Bar With JavaScript And CSS",
+    "link": "https://smashingmagazine.com/2025/06/creating-moving-highlight-navigation-bar-javascript-css/",
+    "summary": "In this tutorial, Blake Lundquist walks us through two methods of creating the “moving-highlight” navigation pattern using only plain JavaScript and CSS. The first technique uses the `getBoundingClientRect` method to explicitly animate the border between navigation bar items when they are clicked. The second approach achieves the same functionality using the new View Transition API.",
+    "published_iso": "2025-06-11T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Decoding The SVG <code>path</code> Element: Line Commands",
+    "link": "https://smashingmagazine.com/2025/06/decoding-svg-path-element-line-commands/",
+    "summary": "SVG is easy — until you meet `path`. However, it’s not as confusing as it initially looks. In this first installment of a pair of articles, Myriam Frisano aims to teach you the basics of `` and its sometimes mystifying commands. With simple examples and visualizations, she’ll help you understand the easy syntax and underlying rules of SVG’s most powerful element so that by the end, you’re fully able to translate SVG semantic tags into a language `path` understands.",
+    "published_iso": "2025-06-09T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Collaboration: The Most Underrated UX Skill No One Talks About",
+    "link": "https://smashingmagazine.com/2025/06/collaboration-most-underrated-ux-skill/",
+    "summary": "We often spotlight wireframes, research, or tools like Figma, but none of that moves the needle if we can’t collaborate well. Great UX doesn’t happen in isolation. It takes conversations with engineers, alignment with product, sales, and other stakeholders, and the ability to listen, adapt, and co-create. That’s where design becomes a team sport, and when your ability to capture the outcomes multiplies the UX impact.",
+    "published_iso": "2025-06-05T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Smashing Animations Part 4: Optimising SVGs",
+    "link": "https://smashingmagazine.com/2025/06/smashing-animations-part-4-optimising-svgs/",
+    "summary": "What’s the best way to make your SVGs faster, simpler, and more manageable? In this article, pioneering author and web designer Andy Clarke explains the process he relies on *to* prepare, optimise, and structure SVGs for animation and beyond.",
+    "published_iso": "2025-06-04T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Why Designers Get Stuck In The Details And How To Stop",
+    "link": "https://smashingmagazine.com/2025/06/why-designers-get-stuck-in-details/",
+    "summary": "Designers love to craft, but polishing pixels before the problem is solved is a time-sink. This article pinpoints the five traps that lure us into premature detail — being afraid to show rough work, fixing symptoms instead of causes, solving the wrong problem, drowning in unactionable feedback, and plain fatigue — then hands you a four-step rescue plan to refocus on goals, ship faster, and keep your craft where it counts.",
+    "published_iso": "2025-06-03T14:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Designing For Neurodiversity",
+    "link": "https://smashingmagazine.com/2025/06/designing-for-neurodiversity/",
+    "summary": "Designing for neurodiversity means recognizing that people aren’t edge cases but individuals with varied ways of thinking and navigating the web. So, how can we create more inclusive experiences that work better for everyone?",
+    "published_iso": "2025-06-02T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Prelude To Summer (June 2025 Wallpapers Edition)",
+    "link": "https://smashingmagazine.com/2025/05/desktop-wallpaper-calendars-june-2025/",
+    "summary": "Let’s kick off June — and the beginning of summer — with some fresh inspiration! Artists and designers from across the globe once again tickled their creativity to welcome the new month with a new collection of desktop wallpapers. Enjoy!",
+    "published_iso": "2025-05-31T08:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Reliably Detecting Third-Party Cookie Blocking In 2025",
+    "link": "https://smashingmagazine.com/2025/05/reliably-detecting-third-party-cookie-blocking-2025/",
+    "summary": "The web is mired in a struggle to eliminate third-party cookies, with the World Wide Web Consortium Technical Architecture Group leading the charge. But there are obstacles preventing this from happening, and, as a result, many essential web features continue to rely on cookies to function properly. That’s why detecting third-party cookie blocking isn’t just good technical hygiene but a frontline defense for user experience.",
+    "published_iso": "2025-05-28T10:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Data Vs. Findings Vs. Insights In UX",
+    "link": "https://smashingmagazine.com/2025/05/data-vs-findings-vs-insights-ux/",
+    "summary": "What’s the difference between data, findings, and UX insights? And how do you argue for statistical significance in your UX research? Let’s unpack it.",
+    "published_iso": "2025-05-27T13:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "What Zen And The Art Of Motorcycle Maintenance Can Teach Us About Web Design",
+    "link": "https://smashingmagazine.com/2025/05/what-zen-art-motorcycle-maintenance-teach-web-design/",
+    "summary": "Road-tripping along the line between engineering and spirituality, Robert M. Pirsig’s musings on the arts, sciences, and Quality ring as true now as they ever have.",
+    "published_iso": "2025-05-23T11:00:00",
+    "source_feed": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "A Radio Button Shopping Cart Trick",
+    "link": "https://css-tricks.com/a-radio-button-shopping-cart-trick/",
+    "summary": "<p>Here's an approach for animating products added to a shopping cart that handles an infinite number of items using a variation of the ol' Checkbox Hack.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/a-radio-button-shopping-cart-trick/\" rel=\"nofollow\">A Radio Button Shopping Cart Trick</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-27T14:18:12",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Getting Creative With Images in Long-Form Content",
+    "link": "https://css-tricks.com/getting-creative-with-images-in-long-form-content/",
+    "summary": "<p>Images in long-form content can (and often should) do more than illustrate. They help set the pace, influence how readers feel, and add character that words alone can’t always convey.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/getting-creative-with-images-in-long-form-content/\" rel=\"nofollow\">Getting Creative With Images in Long-Form Content</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-25T17:16:35",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "3D Layered Text: Interactivity and Dynamicism",
+    "link": "https://css-tricks.com/3d-layered-text-interactivity-and-dynamism/",
+    "summary": "<p>In this third and final chapter, we’re stepping into interactivity by adding JavaScript, starting with a simple <code>:hover</code> effect, and ending with a fully responsive bulging text that follows your mouse in real time.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/3d-layered-text-interactivity-and-dynamism/\" rel=\"nofollow\">3D Layered Text: Interactivity and Dynamicism</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-22T13:14:31",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "3D Layered Text: Motion and Variations",
+    "link": "https://css-tricks.com/3d-layered-text-motion-and-variations/",
+    "summary": "<p>In this chapter, we will explore ways to animate the effect, add transitions, and play with different variations. We will look at how motion can enhance depth, and how subtle tweaks can create a whole new vibe.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/3d-layered-text-motion-and-variations/\" rel=\"nofollow\">3D Layered Text: Motion and Variations</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-20T13:54:52",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "3D Layered Text: The Basics",
+    "link": "https://css-tricks.com/3d-layered-text-the-basics/",
+    "summary": "<p>A client asked me to create a bulging text effect. With a bit of cleverness and some advanced CSS, I managed to get a result I’m genuinely proud of, which is covered in this three-part series.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/3d-layered-text-the-basics/\" rel=\"nofollow\">3D Layered Text: The Basics</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-18T13:46:00",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Covering hidden=until-found",
+    "link": "https://css-tricks.com/covering-hiddenuntil-found/",
+    "summary": "<p>Short story: Slapping <code>hidden=until-found</code> on an element in HTML enables any hidden content within the element to be findable in the browser with in-page search.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/covering-hiddenuntil-found/\" rel=\"nofollow\">Covering hidden=until-found</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-15T12:55:36",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
+    "link": "https://css-tricks.com/a-few-things-about-the-anchor-elements-href-you-might-not-have-known/",
+    "summary": "<p>It's easy to take URL superpowers for granted, even if you already have these patterns under your belt.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/a-few-things-about-the-anchor-elements-href-you-might-not-have-known/\" rel=\"nofollow\">A Few Things About the Anchor Element’s href You Might Not Have Known</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-15T12:26:00",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "On Accessibility Conformance, Design Systems, and CSS “Base” Units",
+    "link": "https://css-tricks.com/on-accessibility-conformance-design-systems-and-css-base-units/",
+    "summary": "<p>My brain can&#8217;t help but try to make connections between seemingly disparate ideas. And that&#8217;s what happened yesterday when I read:</p>\n<ul class=\"wp-block-list\">\n<li>Hidde&#8217;s <a href=\"https://hidde.blog/component-conformance/\" rel=\"noopener\">&#8220;Can components conform to WCAG?&#8221;</a></li>\n<li>Joas&#8217;s <a href=\"https://www.smashingmagazine.com/2025/08/automating-design-systems-tips-resources/\" rel=\"noopener\">&#8220;Automating Design Systems&#8221;</a></li>\n<li>Zell&#8217;s <a href=\"https://css-tricks.com/we-might-need-something-between-root-and-relative-css-units-for-base-elements/\">&#8220;We Might Need Something Between Root and Relative </a></li>\n</ul>\n<p>&#8230;</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/on-accessibility-conformance-design-systems-and-css-base-units/\" rel=\"nofollow\">On Accessibility Conformance, Design Systems, and CSS &#8220;Base&#8221; Units</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-14T13:10:11",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "We Might Need Something Between Root and Relative CSS Units for “Base Elements”",
+    "link": "https://css-tricks.com/we-might-need-something-between-root-and-relative-css-units-for-base-elements/",
+    "summary": "<p>I've come to realize that perhaps we need to have a unit between root and relative values. This would bring about a whole new possibility when creating reusable components.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/we-might-need-something-between-root-and-relative-css-units-for-base-elements/\" rel=\"nofollow\">We Might Need Something Between Root and Relative CSS Units for &#8220;Base Elements&#8221;</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-13T13:24:55",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "CSS-Questions",
+    "link": "https://css-tricks.com/css-questions/",
+    "summary": "<p>CSS-Questions is a mini site where you can test your CSS knowledge with over 100 questions. </p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/css-questions/\" rel=\"nofollow\">CSS-Questions</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-12T15:02:21",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Getting Creative With Quotes",
+    "link": "https://css-tricks.com/getting-creative-with-quotes/",
+    "summary": "<p>How do you design block quotes and pull quotes to reflect a brand’s visual identity and help tell its story? Here’s how I do it by styling the HTML <code>blockquote</code> element using borders, decorative quote marks, custom shapes, and a few unexpected properties.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/getting-creative-with-quotes/\" rel=\"nofollow\">Getting Creative With Quotes</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-11T13:43:14",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Stuff & Nonsense Practical Layout Workshop",
+    "link": "https://css-tricks.com/stuff-nonsense-practical-layout-workshop/",
+    "summary": "<p>Web design veteran Andy Clarke is offering a two-hour workshop all about creating practical and creative page layouts this September 18. Register and save a few bucks with a coupon code.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/stuff-nonsense-practical-layout-workshop/\" rel=\"nofollow\">Stuff &amp; Nonsense Practical Layout Workshop</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-11T12:16:00",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "How to Prepare for CSS-Specific Interview Questions",
+    "link": "https://css-tricks.com/how-to-prepare-for-css-specific-interview-questions/",
+    "summary": "<p>Get advice answering a set of 10 CSS-related questions you likely will encounter in front-end interviews.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/how-to-prepare-for-css-specific-interview-questions/\" rel=\"nofollow\">How to Prepare for CSS-Specific Interview Questions</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-08T13:42:31",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Bringing Back Parallax With Scroll-Driven CSS Animations",
+    "link": "https://css-tricks.com/bringing-back-parallax-with-scroll-driven-css-animations/",
+    "summary": "<p>Parallax is a pattern in which different elements of a webpage move at varying speeds as the user scrolls, creating a three-dimensional, layered appearance. It once required JavaScript. Now we have scroll-driven animations in CSS, which is free from the main-thread blocking that can plague JavaScript animations.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/bringing-back-parallax-with-scroll-driven-css-animations/\" rel=\"nofollow\">Bringing Back Parallax With Scroll-Driven CSS Animations</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-06T13:39:06",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Thinking Deeply About Theming and Color Naming",
+    "link": "https://css-tricks.com/thinking-deeply-about-theming-and-color-naming/",
+    "summary": "<p>Today, I want to discuss a couple of patterns for naming color palettes that the community is using, and how I propose we can improve, so we achieve both flexibility and beauty.</p>\n<hr />\n<p><small><a href=\"https://css-tricks.com/thinking-deeply-about-theming-and-color-naming/\" rel=\"nofollow\">Thinking Deeply About Theming and Color Naming</a> originally published on <a href=\"https://css-tricks.com\" rel=\"nofollow\">CSS-Tricks</a>, which is part of the <a href=\"https://try.digitalocean.com/css-tricks/?utm_medium=rss&amp;utm_source=css-tricks.com&amp;utm_campaign=family_&amp;utm_content=\">DigitalOcean</a> family. You should <a href=\"https://css-tricks.com/newsletters/\">get the newsletter</a>.</p>",
+    "published_iso": "2025-08-04T13:14:45",
+    "source_feed": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Creating the project to Spotlight Jailhouse Lawyers",
+    "link": "https://www.awwwards.com/creating-the-project-to-spotlight-jailhouse-lawyers.html",
+    "summary": "<div><img alt=\"Creating the project to Spotlight Jailhouse Lawyers\" src=\"https://www.awwwards.com/awards/images/2025/08/tubik-cs-thumb.jpg\" /></div>Telling Their History Through DesignOur long-standing partner, Zealous, an organization challenging injustice through media, storytelling, and arts...",
+    "published_iso": "2025-08-20T10:32:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study - Please Call Me Champ Studio",
+    "link": "https://www.awwwards.com/case-study-please-call-me-champ-studio.html",
+    "summary": "<div><img alt=\"Case Study - Please Call Me Champ Studio\" src=\"https://www.awwwards.com/awards/images/2025/08/pcmc-thumb.jpg\" /></div>\"Please Call Me Champ\" is a freelancer who created the IP of the same name under the identity of a studio. Champ Panupong Techawongthawon, known simply...",
+    "published_iso": "2025-08-13T09:40:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Balancing Scale and Humanity: Behind the Scenes of OPTIKKA’s Website",
+    "link": "https://www.awwwards.com/balancing-scale-and-humanity-behind-the-scenes-of-optikkas-website.html",
+    "summary": "<div><img alt=\"Balancing Scale and Humanity: Behind the Scenes of OPTIKKA’s Website\" src=\"https://www.awwwards.com/awards/images/2025/08/optikka-thum.jpg\" /></div>Conveying the scale of a system without overwhelming the user. Highlighting advanced technology while making it feel warm and human.These were the...",
+    "published_iso": "2025-08-06T10:38:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Vote for Site of the Month July 2025!",
+    "link": "https://www.awwwards.com/vote-for-site-of-the-month-july-2025.html",
+    "summary": "<div><img alt=\"Vote for Site of the Month July 2025!\" src=\"https://www.awwwards.com/awards/images/2025/07/SOTM - Thumb.jpg\" /></div>Meet the nominees for Site of the Month July, vote and tweet for your favorite.👉 Vote for SOTM July👈The candidates for Site of the Month July...",
+    "published_iso": "2025-07-31T11:15:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "CASE STUDY: IMPRONTA",
+    "link": "https://www.awwwards.com/case-study-impronta.html",
+    "summary": "<div><img alt=\"CASE STUDY: IMPRONTA\" src=\"https://www.awwwards.com/awards/images/2025/07/impronta-cs-thumb.jpg\" /></div>IMPRONTA: Architecture, Product, and Digital in a Single GestureA lightweight interface for dense content. Impronta’s website turns a complex technical...",
+    "published_iso": "2025-07-30T11:25:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "When WebGL and branding transform the user experience: the case of Duroc, signed by French studio Bonhomme.",
+    "link": "https://www.awwwards.com/when-webgl-and-branding-transform-the-user-experience-the-case-of-duroc-signed-by-french-studio-bonhomme.html",
+    "summary": "<div><img alt=\"When WebGL and branding transform the user experience: the case of Duroc, signed by French studio Bonhomme.\" src=\"https://www.awwwards.com/awards/images/2025/07/duroc-thumb.jpg\" /></div>IntroductionAs a producer and exporter of cherry tomatoes, Duroc once again called on Bonhomme to reinvent its digital visual universe, while reflecting...",
+    "published_iso": "2025-07-23T11:12:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study - Bloom",
+    "link": "https://www.awwwards.com/case-study-bloom.html",
+    "summary": "<div><img alt=\"Case Study - Bloom\" src=\"https://www.awwwards.com/awards/images/2025/07/bloom-thumb.jpg\" /></div>A behind-the-scenes look at how bold vision and thoughtful motion design shaped a sleek, immersive website for one of Paris’s sharpest production service...",
+    "published_iso": "2025-07-16T11:46:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study: KODE Immersive",
+    "link": "https://www.awwwards.com/case-study-kode-immersive.html",
+    "summary": "<div><img alt=\"Case Study: KODE Immersive\" src=\"https://www.awwwards.com/awards/images/2025/07/kode-thumb.jpg\" /></div>IntroductionKODE Immersive fuses AR, VR, real-time 3D, and spatial computing to craft high-impact, interactive experiences. It’s not just a platform...",
+    "published_iso": "2025-07-09T12:05:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Shopify vs WooCommerce: What's the better?",
+    "link": "https://www.awwwards.com/shopify-vs-woocommerce.html",
+    "summary": "<div><img alt=\"Shopify vs WooCommerce: What\" src=\"https://www.awwwards.com/awards/images/2025/07/shopifyvswoocommerce.jpg\" /></div>What's the best website builder for an e-commerce?In the world of eCommerce, choosing the right platform can mean the difference between success and...",
+    "published_iso": "2025-07-04T08:10:36",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Navigate: Dastardly Data Disruptors",
+    "link": "https://www.awwwards.com/navigate-dastardly-data-disruptors.html",
+    "summary": "<div><img alt=\"Navigate: Dastardly Data Disruptors\" src=\"https://www.awwwards.com/awards/images/2025/07/navigate-thumb.png\" /></div>Navigate is a Web3 platform based on the radical idea that your data is valuable and you should be rewarded for it.Outrageous, right? We’re quite...",
+    "published_iso": "2025-07-02T11:13:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Vote for Site of the Month June 2025!",
+    "link": "https://www.awwwards.com/vote-for-site-of-the-month-june-2025.html",
+    "summary": "<div><img alt=\"Vote for Site of the Month June 2025!\" src=\"https://www.awwwards.com/awards/images/2025/06/sotm-june-2025-thumbnail.jpg\" /></div>Meet the nominees for Site of the Month June, vote and tweet for your favorite.👉 Vote for SOTM June👈The candidates for Site of the Month June...",
+    "published_iso": "2025-06-30T10:03:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Inkwell: A scroll-driven narrative for AI’s most stealth player.",
+    "link": "https://www.awwwards.com/inkwell-a-scroll-driven-narrative-for-ais-most-stealth-player.html",
+    "summary": "<div><img alt=\"Inkwell: A scroll-driven narrative for AI’s most stealth player.\" src=\"https://www.awwwards.com/awards/images/2025/06/Inkwell - Thumbnail.jpg\" /></div>IntroductionUp until  May 2025, Inkwell had no online footprint. Just silent, strategic work for clients in architecture, fashion, and beyond. Their...",
+    "published_iso": "2025-06-25T10:19:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Noomo ValenTime — immersive storytelling about love",
+    "link": "https://www.awwwards.com/noomo-valentime-immersive-storytelling-about-love.html",
+    "summary": "<div><img alt=\"Noomo ValenTime — immersive storytelling about love\" src=\"https://www.awwwards.com/awards/images/2025/06/noomo-cs-thumb.jpg\" /></div>Noomo ValenTime immerses you in a magical 3D world to tell a reimagined story of St. Valentine — ending with a chance to create your own custom heart...",
+    "published_iso": "2025-06-18T11:47:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study: J-Vers Site",
+    "link": "https://www.awwwards.com/case-study-j-vers-site.html",
+    "summary": "<div><img alt=\"Case Study: J-Vers Site\" src=\"https://www.awwwards.com/awards/images/2025/06/jverse-thumb.jpg\" /></div>IntroductionJ-Vers is a programmatic job advertising agency with years of experience in the field. They develop recruitment ad strategies that deliver...",
+    "published_iso": "2025-06-11T10:26:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "The Blue Desert",
+    "link": "https://www.awwwards.com/the-blue-desert.html",
+    "summary": "<div><img alt=\"The Blue Desert\" src=\"https://www.awwwards.com/awards/images/2025/06/cs-desert-thumb.jpg\" /></div>IntroductionThe Blue Desert is an R&amp;D project developed to experiment new ways of conveying information usually confined to pdfs like Global Impact...",
+    "published_iso": "2025-06-04T11:11:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Vote for Site of the Month May 2025!",
+    "link": "https://www.awwwards.com/vote-for-site-of-the-month-may-2025.html",
+    "summary": "<div><img alt=\"Vote for Site of the Month May 2025!\" src=\"https://www.awwwards.com/awards/images/2025/06/may-thumb-2.jpg\" /></div>Meet the nominees for Site of the Month May, vote and tweet for your favorite.👉 Vote for SOTM May👈The candidates for Site of the Month May 2025...",
+    "published_iso": "2025-06-02T09:50:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Siena Film Foundation – Case Study",
+    "link": "https://www.awwwards.com/siena-film-foundation-case-study.html",
+    "summary": "<div><img alt=\"Siena Film Foundation – Case Study\" src=\"https://www.awwwards.com/awards/images/2025/05/siena-cs-thumb.jpg\" /></div>IntroductionCreating the website for Siena Film Foundation presented an exceptional opportunity to express cinema's essence in its purest digital form....",
+    "published_iso": "2025-05-28T10:31:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Behind the Scenes: Designing and Building 365 — A Year of Cartier",
+    "link": "https://www.awwwards.com/behind-the-scenes-designing-and-building-365-a-year-of-cartier.html",
+    "summary": "<div><img alt=\"Behind the Scenes: Designing and Building 365 — A Year of Cartier\" src=\"https://www.awwwards.com/awards/images/2025/05/cartier-cs-thumb.jpg\" /></div>When Cartier reached out to collaborate on their 2024 Yearbook website, we were excited. It’s not every day you get to work with a jewellery brand with...",
+    "published_iso": "2025-05-21T10:58:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study: Dropbox Brand Guidelines",
+    "link": "https://www.awwwards.com/case-study-dropbox-brand-guidelines.html",
+    "summary": "<div><img alt=\"Case Study: Dropbox Brand Guidelines\" src=\"https://www.awwwards.com/awards/images/2025/05/cs-dropbox-thumb.png\" /></div>Brand guidelines can often feel rigid and complexWhen we first met with Dropbox, they expressed that their design standards site had become dated and...",
+    "published_iso": "2025-05-07T13:00:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Vote for Site of the Month April 2025!",
+    "link": "https://www.awwwards.com/vote-for-site-of-the-month-april-2025.html",
+    "summary": "<div><img alt=\"Vote for Site of the Month April 2025!\" src=\"https://www.awwwards.com/awards/images/2025/04/sotm-april-2025-thumbnail.jpg\" /></div>Meet the nominees for Site of the Month April, vote and tweet for your favorite.👉 Vote for SOTM April👈The candidates for Site of the Month April...",
+    "published_iso": "2025-04-30T10:10:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case study: Stas Bondar ‘25",
+    "link": "https://www.awwwards.com/case-study-stas-bondar-25.html",
+    "summary": "<div><img alt=\"Case study: Stas Bondar ‘25\" src=\"https://www.awwwards.com/awards/images/2025/04/sb-thumb.jpg\" /></div>Each creative portfolio narrates a story — not solely through the displayed work but also through the experience it provides.I believe my case is...",
+    "published_iso": "2025-04-23T10:48:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Ottografie Reinvented",
+    "link": "https://www.awwwards.com/ottografie-reinvented.html",
+    "summary": "<div><img alt=\"Ottografie Reinvented\" src=\"https://www.awwwards.com/awards/images/2025/04/otto-thumb.jpg\" /></div>Seamless Photographic JourneyOtto van den Toorn is an acclaimed beauty and fashion photographer from the Netherlands. Following the success of his...",
+    "published_iso": "2025-04-09T11:43:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Vote for Site of the Month March 2025!",
+    "link": "https://www.awwwards.com/vote-for-site-of-the-month-march-2025.html",
+    "summary": "<div><img alt=\"Vote for Site of the Month March 2025!\" src=\"https://www.awwwards.com/awards/images/2025/03/sotm-march-2025-thumbnail.jpg\" /></div>Meet the nominees for Site of the Month March, vote and tweet for your favorite.👉 Vote for SOTM March👈The candidates for Site of the Month March...",
+    "published_iso": "2025-03-31T10:32:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "BLEIBTGLEICH: Code from Hatred, Design from Pain",
+    "link": "https://www.awwwards.com/bleibtgleich-code-from-hatred-design-from-pain.html",
+    "summary": "<div><img alt=\"BLEIBTGLEICH: Code from Hatred, Design from Pain\" src=\"https://www.awwwards.com/awards/images/2025/03/thumb.jpg\" /></div>Introduction: Sparks in the VoidBack in the day, creating something complex without backend knowledge and advanced frontend skills was like spitting...",
+    "published_iso": "2025-03-26T12:57:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "The Path to Becoming a UX/UI Designer, from Beginner to Pro, all accessible through the Creative Pass",
+    "link": "https://www.awwwards.com/the-path-to-becoming-a-ux-ui-designer-from-beginner-to-pro-all-accessible-through-the-creative-pass.html",
+    "summary": "<div><img alt=\"The Path to Becoming a UX/UI Designer, from Beginner to Pro, all accessible through the Creative Pass\" src=\"https://www.awwwards.com/awards/images/2025/03/thumb-2.jpg\" /></div>From Start to Pro: 8 courses to carve your journey in UX/UIIf you are on the lookout for building a solid set of UX/UI designing skills, we've selected...",
+    "published_iso": "2025-03-25T12:18:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study: Jeton by Bürocratik",
+    "link": "https://www.awwwards.com/case-study-jeton-by-burocratik.html",
+    "summary": "<div><img alt=\"Case Study: Jeton by Bürocratik\" src=\"https://www.awwwards.com/awards/images/2025/03/Jeton_thumb.jpg\" /></div>Jeton is a new-generation eWallet designed to simplify the way you pay online and offline, heading from the UK to the world.London, we heard you like...",
+    "published_iso": "2025-03-18T16:52:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "You're a Digital Designer, but You Want to Be an Industry Leader.",
+    "link": "https://www.awwwards.com/youre-a-digital-designer-but-you-want-to-be-an-industry-leader.html",
+    "summary": "<div><img alt=\"You\" src=\"https://www.awwwards.com/awards/images/2025/03/thumbnail-leader-10.jpg\" /></div>Chances are you're at a point in your career where you know that if you enhanced your skills, you could work on higher-level projects that would truly...",
+    "published_iso": "2025-03-18T08:42:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study: Moooor",
+    "link": "https://www.awwwards.com/case-study-moooor.html",
+    "summary": "<div><img alt=\"Case Study: Moooor\" src=\"https://www.awwwards.com/awards/images/2025/03/Moooor-Thumb.jpg\" /></div>MOOOOR: Let me tell you a storyMOOOOR is a newly launched brand dedicated to offering high-quality natural supplements. With no physical stores, the...",
+    "published_iso": "2025-03-12T17:22:21",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Case Study: Immersive Garden’s New Website",
+    "link": "https://www.awwwards.com/case-study-immersive-gardens-new-website.html",
+    "summary": "<div><img alt=\"Case Study: Immersive Garden’s New Website\" src=\"https://www.awwwards.com/awards/images/2025/03/InmersiveGardenWebsiteThumb3.jpg\" /></div>The new version of Immersive Garden’s website is designed as a showcase of all our projects, allowing visitors to explore in-depth case studies that...",
+    "published_iso": "2025-03-04T15:15:15",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Vote for Site of the Month February 2025!",
+    "link": "https://www.awwwards.com/vote-for-site-of-the-month-february-2025.html",
+    "summary": "<div><img alt=\"Vote for Site of the Month February 2025!\" src=\"https://www.awwwards.com/awards/images/2025/02/sotm-February-2025-thumbnail-min2.jpg\" /></div>Meet the nominees for Site of the Month February, vote and tweet for your favorite.👉 Vote for SOTM February👈The candidates for Site of the Month...",
+    "published_iso": "2025-02-28T10:15:00",
+    "source_feed": "https://www.awwwards.com/blog/feed/"
+  },
+  {
+    "title": "Designing for Discovery: Why AI and Accessibility Are Now UX Priorities",
+    "link": "https://webdesignerdepot.com/designing-for-discovery-why-ai-and-accessibility-are-now-ux-priorities/",
+    "summary": "The web’s newest users are no longer just people—they’re AI agents navigating, summarizing, and acting on content. This shift introduces Agent Experience (AX), a new layer of UX that ensures sites are legible and actionable for both humans and machines.",
+    "published_iso": "2025-08-27T11:26:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "10 Web Dev Trends for 2025 That Will Make or Break Your Career",
+    "link": "https://webdesignerdepot.com/10-web-dev-trends-for-2025-that-will-make-or-break-your-career/",
+    "summary": "Web development in 2025 isn't just changing—it's mutating. If you’re not orchestrating AI, ditching bloated frameworks, and thinking beyond screens, you're already obsolete. Here's what's next (and why it's coming faster than you think).",
+    "published_iso": "2025-08-25T10:49:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "25 Useful ChatGPT Prompts for Web Designers (that you can copy/paste)",
+    "link": "https://webdesignerdepot.com/25-useful-chatgpt-prompts-for-web-designers-that-you-can-copy-paste/",
+    "summary": "Struggling with blank screens? These 25 AI prompts for web designers will spark ideas, fix UX headaches, and even impress clients. Save time, design smarter, and future-proof your work.",
+    "published_iso": "2025-08-22T11:51:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Web Design & Web Development Salaries Around the World in 2025",
+    "link": "https://webdesignerdepot.com/web-design-web-development-salaries-around-the-world-in-2025/",
+    "summary": "In 2025, web design and development paychecks are more about impact than job titles — and the global salary gap is staggering. From $190k U.S. AI gigs to $15k local roles in Southeast Asia, the numbers show exactly where skills pay off (and where they don’t).",
+    "published_iso": "2025-08-20T12:25:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "10 “Fresh” Design Trends We Shamelessly Stole From the Past",
+    "link": "https://webdesignerdepot.com/10-fresh-design-trends-we-shamelessly-stole-from-the-past/",
+    "summary": "Every “fresh” design trend you love is probably stolen—from Soviet posters to 80s neon, from Bauhaus to Blade Runner. We’re not inventing; we’re remixing. Here’s the proof that today’s hottest web aesthetics are just yesterday’s styles in shinier packaging.",
+    "published_iso": "2025-08-18T12:31:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Forget Design Portfolios: Here’s How Designers ACTUALLY Get Hired in 2025",
+    "link": "https://webdesignerdepot.com/forget-design-portfolios-heres-how-designers-actually-get-hired-in-2025/",
+    "summary": "The designer portfolio is dead—and AI killed it. Recruiters don’t click your link, algorithms flatten your work into bullet points, and the real hiring decisions happen on LinkedIn, X, and in community feeds.",
+    "published_iso": "2025-08-15T11:04:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "User Journeys vs. Customer Journeys: Why the Distinction Matters More Than You Think",
+    "link": "https://webdesignerdepot.com/user-journeys-vs-customer-journeys-why-the-distinction-matters-more-than-you-think/",
+    "summary": "Think “user” and “customer” are the same thing? Think again. Confusing the two could be the silent killer of your product—and your profits. Here’s why designing for the wrong journey could cost you everything.",
+    "published_iso": "2025-08-13T12:37:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Exciting New Tools for Designers, August 2025",
+    "link": "https://webdesignerdepot.com/exciting-new-tools-for-designers-august-2025/",
+    "summary": "Our roundup of exciting new tools for designers is a smorgasbord of options, from open source editors to artificial intelligence tools are designed to speed up creative workflows. Most of the tools hitting the market right now include some AI elements, but we do have one “anti-AI” tool featured.     Here’s what’s new for designers. [&#8230;]",
+    "published_iso": "2025-08-11T12:36:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Your A/B Tests Are Lying to You! The Myth of Data Driven Design",
+    "link": "https://webdesignerdepot.com/your-a-b-tests-are-lying-to-you-the-myth-of-data-driven-design/",
+    "summary": "A/B testing isn’t the ultimate truth in design—it’s often a flawed experiment with misleading results and false confidence. Instead of obsessing over data noise, designers should prioritize real user insights and meaningful design decisions.",
+    "published_iso": "2025-08-08T12:56:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "The Rise and Fall of the Web Mascot: Where Did They Go?",
+    "link": "https://webdesignerdepot.com/the-rise-and-fall-of-the-web-mascot-where-did-they-go/",
+    "summary": "Web design once thrived on quirky mascots that made brands feel fun and approachable, but they’ve largely disappeared, replaced by soulless minimalism and corporate sameness. As startups prioritized looking “serious” over having personality, we lost the weird, charming creatures that made the web more delightful—maybe it’s time for a comeback.",
+    "published_iso": "2025-08-06T12:35:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Skeleton Screens Are Just Gray Lies We Tell Ourselves",
+    "link": "https://webdesignerdepot.com/skeleton-screens-are-just-gray-lies-we-tell-ourselves/",
+    "summary": "Skeleton screens aren’t clever UX anymore—they’re just visual duct tape over slow, bloated apps. In 2025, users see through the shimmering gray lies, and it's time we stop pretending they work. If your site needs skeletons, maybe what it really needs is a faster brain, not a prettier mask.",
+    "published_iso": "2025-08-04T12:15:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Nobody Waits for Your Fancy Animations Anymore (And They Never Really Did)",
+    "link": "https://webdesignerdepot.com/nobody-waits-for-your-fancy-animations-anymore-and-they-never-really-did/",
+    "summary": "Everyone's obsessed with animations and parallax effects in 2025—but guess what? Nobody’s watching. Users don’t wait. It’s time we stop designing for Dribbble clout and start designing for real people.",
+    "published_iso": "2025-08-01T12:59:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "The Silent UX Killer: Micro Failures Are Wrecking Your Site",
+    "link": "https://webdesignerdepot.com/the-silent-ux-killer-micro-failures-are-wrecking-your-site/",
+    "summary": "Your site might “work,” but it *feels* broken—and your users notice. Micro failures are the tiny, invisible UX screw-ups that slowly kill trust, tank conversions, and make people leave without saying a word. If you think they don’t matter, congratulations: you’re designing for no one.",
+    "published_iso": "2025-07-30T12:34:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "The Death of the Click: How Scrolling Took Over the Web",
+    "link": "https://webdesignerdepot.com/the-death-of-the-click-how-scrolling-took-over-the-web/",
+    "summary": "Clicks are dead. Scrolling took over. What used to be a choice—navigation—is now a passive feed disguised as design. From infinite scroll to TikTokified portfolios, the web is turning into one big dopamine loop. Designers need to take back control before every site becomes just another endless scroll-fest.",
+    "published_iso": "2025-07-28T11:44:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Dear Hamburger Menu: It’s Not the ’90s Anymore",
+    "link": "https://webdesignerdepot.com/dear-hamburger-menu-its-not-the-90s-anymore/",
+    "summary": "The hamburger menu had its moment—but now it’s just a cryptic little sandwich hiding everything users actually need. This sarcastic love letter exposes how the once-innovative icon became the Houdini of UX, vanishing critical navigation with three innocent lines. If your users are getting lost in the menu, maybe it’s time to ditch the burger.",
+    "published_iso": "2025-07-25T11:43:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "How Formatting Text in Web Design Increases Conversions",
+    "link": "https://webdesignerdepot.com/how-formatting-text-in-web-design-increases-conversions/",
+    "summary": "Want to boost your website’s conversions? The secret might just be in how you format your text! From strategic bolding and short sentences to using images, videos, and whitespace, these simple design tweaks can transform user experience and drive real results.",
+    "published_iso": "2025-07-23T12:33:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "The Future of the Web Is Decentralized (Whether You Like It or Not)",
+    "link": "https://webdesignerdepot.com/the-future-of-the-web-is-decentralized-whether-you-like-it-or-not/",
+    "summary": "The internet’s breaking free from Big Tech’s grip—decentralization is taking over, giving power back to users. It’s messy, it’s wild, but from crypto to cloud storage, the future is clear: no more middlemen, no more gatekeepers, just a web that works for you.",
+    "published_iso": "2025-07-21T12:40:00",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "Non-Linear Web Design: Unlocking the Future of User Experience",
+    "link": "https://webdesignerdepot.com/non-linear-web-design-unlocking-the-future-of-user-experience/",
+    "summary": "Non-linear web design offers users a dynamic and interactive experience by allowing them to explore content in various, personalized paths rather than following a rigid, linear flow. This approach enhances user engagement and fosters a more organic, exploratory web experience.",
+    "published_iso": "2025-07-18T15:09:32",
+    "source_feed": "https://webdesignerdepot.com/feed/"
+  },
+  {
+    "title": "How to Define Success Criteria for UX Research",
+    "link": "https://uxplanet.org/how-to-define-success-criteria-for-ux-research-ce0c26c63b49?source=rss----819cc2aaeee0---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*jvdvYbl7ZfnwCf-F04ExHQ.png\" /></figure><p>In UX research, we have two pieces— hypotheses and success criteria — that set the foundation for any research activity. Without them, research risks becoming vague “user feedback sessions” rather than a fuel that powers design process.</p><p>A hypothesis is simply an assumption about user behavior, needs, or preferences that you want to validate (or invalidate). Think of them as “<em>bets</em>” you’re making in your design. I typically use the following format for a hypothesis:</p><blockquote>I believe that [user group] will [do something/use something] because [reason or context].</blockquote><p>Examples:</p><ul><li><em>I believe that first-time users will skip account setup if it feels too long, because they want immediate value.</em></li><li><em>I believe that users will prefer voice search for recipes over typing because they often have their hands busy in the kitchen.</em></li><li><em>I believe that users will need export-to-PDF functionality, because they are required to share reports in that format.</em></li></ul><p>Once you articulate a hypothesis, the next thing you need to do is to validate it. And here comes a second piece of the UX research puzzle — success criteria. Success criteria are measurable signals that tell you whether your hypothesis holds true. They prevent you from interpreting vague feedback as validation.</p><p>Success criteria can be <em>quantitative</em> (numbers) or <em>qualitative</em> (observations), depending on the research context. Here is a 3-step process that I follow when choosing success criteria for my UX research:</p><h3>1. Tie it to the research objectives</h3><p>Before defining success, understand the specific problem the UX research aims to solve and how it connects to broader business objectives.</p><p>Start with two big questions:</p><p><em>“What do we need to learn to move this product forward?”</em></p><p><em>“Why do we need to learn it?”</em></p><p>and turn that into a measurable outcome.</p><p>Success criteria should <em>answer the research questions</em>. For example, if you’re checking if onboarding is intuitive, you can focus on quantitative success criteria, such as 80% of participants can complete onboarding without guidance.</p><h3>2. Choose the right measurement type</h3><p>There are three main categories of success criteria:</p><h4>a. Behavioral (what users do)</h4><p>This type explains what users do in your product, and it typically measures users’ activities and actions. Examples of success measurements are:</p><ul><li><em>Task success rate (</em>% of participants completing a task).</li><li><em>Error rate (</em>% who took a wrong path or needed correction).</li><li><em>Time on task (</em>How long it takes to finish a certain task).</li><li><em>Path taken (</em>Did they follow the intended flow or work around it?).</li></ul><h4>b. Attitudinal (what users feel/think)</h4><p>Attitude is how people think and feel about your product. Attitude is based on both the rational and emotional impact of user interaction.</p><ul><li><em>Satisfaction ratings</em> (e.g., SUS, UMUX-Lite, or a 1–5 Likert scale).</li><li><em>Confidence ratings</em> (“How confident are you that you did this correctly?”).</li><li><em>Preference signals</em> (e.g., majority choosing one option over another).</li></ul><h4>c. Business-facing</h4><p>While behavior and attitude are something that we can directly connect to attributes of product design, such as functionality, reliability, usability, and delight, business-facing measurement is about the business model of your product and how people think about it. To define success criteria for UX research, you need to align with business objectives.</p><ul><li><em>Willingness to pay</em> (for validating pricing model).</li><li><em>Net Promoter-like intent</em> (e.g., “Would you use this again?”).</li><li><em>Conversion intent</em> (click-through, signup interest).</li></ul><p>Most UX research benefits from a mix of different methods, not just one type. For example, if you’re validating a new search feature for your online store, you can choose</p><ul><li><strong>Behavioral:</strong> 80% find the right product within 1 min.</li><li><strong>Attitudinal:</strong> Avg. satisfaction ≥4/5 on search experience.</li><li><strong>Business-facing:</strong> ≥60% say they’d use search as their primary navigation method.</li></ul><p><em>Quick tip:</em> If you want to have a balanced set of metrics, you can use frameworks like SMART (Specific, Measurable, Achievable, Relevant, Time-bound) or OKR (Objectives and Key Results).</p><a href=\"https://medium.com/media/458abfa81cab890e0b815af3c790c753/href\">https://medium.com/media/458abfa81cab890e0b815af3c790c753/href</a><h3>3. Consider the stage of product design process</h3><p>Different stages of product design require a different set of success criteria. For example:</p><ul><li>Early phase of product design (prototypes) → Lean more on attitudinal (“Do they get it?” “Do they like it?”).</li><li>MVP → Add behavioral (“Can they do it?” “How long does it take?”).</li><li>Launched product → Add business-facing (“Does this drive signups, retention, revenue?”).</li></ul><h3>Want To Learn UX?</h3><p>Try <a href=\"https://www.interaction-design.org/courses?ep=ux-planet\">Interaction Design Foundation</a>. It offers online design courses that cover the entire spectrum of UX design, from foundational to advanced level. A</p><p><a href=\"https://www.interaction-design.org/courses?ep=ux-planet\">UX Design Courses</a></p><p><em>This post contains affiliate link(s)</em></p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=ce0c26c63b49\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/how-to-define-success-criteria-for-ux-research-ce0c26c63b49\">How to Define Success Criteria for UX Research</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-26T17:31:46",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "Beyond the Prompt: Why the Best AI-Assisted Designers Are Still Thinking Like Humans",
+    "link": "https://uxplanet.org/beyond-the-prompt-why-the-best-ai-assisted-designers-are-still-thinking-like-humans-0a2d758136ba?source=rss----819cc2aaeee0---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*hhRKqKd_EzD-OZ_f\" /><figcaption><a href=\"https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.graphic-design-institute.com%2Ffuture-graphic-designing-age-artificial-intelligence-ai%2F&amp;psig=AOvVaw3ldXWGkxQXwUh4_ovNsKxa&amp;ust=1755657557883000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBYQjRxqFwoTCPDchJvslY8DFQAAAAAdAAAAABAK\">Image source</a></figcaption></figure><p>Last month, I watched a junior designer generate 47 logo variations in under ten minutes using Midjourney. They were technically proficient, aesthetically pleasing, and completely forgettable. Meanwhile, across the room, a senior designer spent three hours sketching one concept by hand, researching the client’s cultural context, and questioning whether a logo was even the right solution.</p><p>Guess which approach led to the breakthrough that landed the client?</p><h3>The Great Acceleration</h3><p>We’re living through what I call “The Great Acceleration” in design tooling. AI can now generate interfaces, illustrations, and entire brand systems faster than we can evaluate them. Figma’s AI features, Adobe’s Firefly, and countless specialized tools promise to compress weeks of design work into hours.</p><p>The productivity gains are undeniable. But something curious is happening: as AI handles more of the <em>making</em>, the most successful designers aren’t becoming prompt engineers — they’re becoming better <em>thinkers</em>.</p><h3>The Human Layer That AI Can’t Touch</h3><p>Here’s what I’ve observed working with design teams integrating AI tools over the past year: the designers who thrive aren’t the ones with the most sophisticated prompts. They’re the ones who’ve doubled down on uniquely human capabilities that AI amplifies rather than replaces.</p><p><strong>Systems Thinking Over Asset Creation</strong> The best AI-assisted designers spend less time perfecting individual components and more time mapping relationships between them. While AI generates variations of a button, they’re thinking about how that button fits into a broader ecosystem of user needs, business constraints, and technical possibilities.</p><p><strong>Cultural Intuition Over Aesthetic Generation</strong> AI can mimic visual styles but struggles with cultural nuance and context. The designers who stand out use AI for rapid exploration, then apply human judgment about what resonates with specific audiences, what might be misinterpreted, or what carries unintended meaning.</p><p><strong>Problem Reframing Over Solution Optimization</strong> Perhaps most importantly, while AI excels at optimizing known solutions, it can’t question the problem itself. The most valuable designers are using AI to quickly prototype solutions to the <em>wrong</em> problem, then stepping back to ask better questions.</p><h3>The New Designer’s Toolkit</h3><p>This shift requires rethinking how we approach our craft. Here are three practices I’ve seen effective AI-assisted designers adopt:</p><p><strong>Start with Constraints, Not Possibilities.</strong> Instead of asking AI to generate endless options, define tight constraints first. What can’t this solution do? What would make it fail? AI works best when bounded by human-defined parameters.</p><p><strong>Prototype to Think, Not to Ship.</strong> Use AI for rapid concept exploration — to think through ideas, not to create final deliverables. The goal is insight, not output. Generate ten variations to understand the problem space, then craft one solution by hand.</p><p><strong>Measure Resonance, Not Just Performance.</strong> Traditional design metrics still matter, but add qualitative measures: Does this solution feel distinctly <em>ours</em>? Does it solve a problem our users didn’t know they had? Would our competitors create something similar?</p><h3>The Craft Renaissance</h3><p>Paradoxically, as AI handles more mechanical tasks, I’m seeing a renaissance in design craft. Designers are returning to foundational skills — typography, composition, storytelling, not in spite of AI, but because of it. When anyone can generate a decent layout, exceptional typography becomes a competitive advantage.</p><p>The future belongs to designers who see AI as a thinking partner, not a replacement for thinking. Those who use it to explore more possibilities so they can make better choices. Who leverage its speed to spend more time on the problems that really matter.</p><p>The question isn’t whether AI will change design — it already has. The question is whether we’ll use it to become more human in our approach, or whether we’ll let it make us more machine-like in our thinking.</p><p>As we sprint toward an AI-powered future, the most successful designers will be those who remember that great design has never been about the tools — it’s about the thinking behind them.</p><p><strong>References &amp; Further Reading:</strong></p><ul><li><a href=\"https://www.figma.com/resources/state-of-ai-design/\">The State of AI in Design 2024</a> — Figma Research</li><li><a href=\"https://hai.stanford.edu/research/human-centered-ai\">Human-Centered AI Design</a> — Stanford HAI</li><li><a href=\"https://press.uchicago.edu/ucp/books/book/chicago/C/bo3636252.html\">The Craft of Research</a> — Booth, Colomb &amp; Williams</li><li><a href=\"https://www.penguinrandomhouse.com/books/302459/thinking-fast-and-slow-by-daniel-kahneman/\">Thinking, Fast and Slow</a> — Daniel Kahneman</li></ul><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=0a2d758136ba\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/beyond-the-prompt-why-the-best-ai-assisted-designers-are-still-thinking-like-humans-0a2d758136ba\">Beyond the Prompt: Why the Best AI-Assisted Designers Are Still Thinking Like Humans</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:56:41",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "Design Process: Methodical versus Bloated",
+    "link": "https://uxplanet.org/design-process-methodical-versus-bloated-f6c63838907e?source=rss----819cc2aaeee0---4",
+    "summary": "<figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*2nJi7l5Lq5Ak9mJmFCi4yQ.jpeg\" /></figure><p>The topic for this article is in reality a sequel to one I wrote about in 2024 (you can read that first installment <a href=\"https://uxplanet.org/is-the-design-process-slow-and-is-it-held-to-a-different-standard-in-terms-of-efficiency-0ac4a6cfb5b4\">here</a>). In that article I explained the reasons as to why the Design Process can at times be perceived as a lengthy one, and what factors influence it. I also provided some color to this topic courtesy of some products and engagements I went through in the past that are revelatory of processes that can be labeled “long” and “short”. This “sequel-article” is a more succinct follow up, and I’m aiming to dispel the concept of Process as something bloated. Hopefully what I’m about to write will spark some conversations/discussions/reflections, which is ultimately what I always aim to be a catalyst of.</p><p><strong>Methodical. </strong>Merriam-Webster defines “Methodical” as “habitually proceeding according to method: systematic”. Somehow the association that the Design Process is tied with a lengthy set of tasks that requires a considerable amount of time has been imprinted for some professionals in the Technology field, typically those who are more on the periphery and have a very superficial knowledge of what the process actually entails. I’m going to reinforce that for a Design process to be successful, it requires a methodical approach to it, one that is tied with being thorough and systematic in its diligence. However, being methodical and thorough is not a synonym with being time wasteful or simply wasteful in general. One can be time efficient, while still being methodical and systematic on how tasks are achieved.</p><p><strong>Bloated. </strong>Merriam-Webster defines “Bloated” as “often used figuratively to describe something as having grown excessively large”. I’ve witnessed across many teams I’ve worked with in the past, that usually the people raising the alarm on the length of the Design process, are usually the ones who think there’s virtue in cutting corners. These are usually the professionals for whom activities such as “user research”, “data insights”, “analytics”, and generally speaking, gaining a better understanding of the problem statement, users/clients, value proposition, and actually testing concepts before building them, are all “nice to have” and not <strong>essentials </strong>(essentially the principles of <a href=\"https://en.wikipedia.org/wiki/Human-centered_design\">Human Centered Design</a>). And these individuals are also usually the ones who are nowhere in sight, when something invariably goes wrong (and something always goes wrong), because some or all of those activities were bypassed, in order to “save time and money”, in what ultimately comes back to wreak havoc on what has been built (one way or another). I’m going to reinforce it once again: being systematic and thorough isn’t synonymous with bloated. The activities at the core of Human Centered Design don’t have a rigid number of days/weeks/months/years to be accomplished. They can be leveraged according to the available resources, and according to what teams can provide. Most of the fear and pushback in adopting the Design process, at least from what I have observed, comes from insecurity of those who are unfamiliar with it, and therefore try to undermine it before even trying to embark on it. Or those who have practiced it, and done it wrongly, or through a unique lens, and therefore have a distorted experience of it, one that makes them resent the virtue of the process itself. Either way it is usually professionals who refuse to partner and go beyond their comfort zone, and who implicitly (and sometimes explicitly) go on a path of sabotaging the endeavor.</p><p><strong>Learn. </strong>Merriam-Webster defines “Learning” as “knowledge or skill acquired by instruction or study” and also “modification of a behavioral tendency by experience (such as exposure to conditioning)”. A large aspect of working in Technology, is about being able to parse through a considerable amount of information, efficiently, selecting what is pertinent for the professionals in the field to make good choices. It’s also about understanding the constant voracious apetite for what is new, for experimentation, for pushing the boundaries of what can be done. And ultimately being pushed out of one’s comfort zone (both as a creator and consumer of technology). Following a process is not about having a comfortable blanket of tranquility or even a shelter that avoids a storm altogether. It’s more about having a beacon, one that provides guidance and reassurance that while the storm is raging, there is indeed something that can guide us through it. That there is a destination ultimately. And while the Design Process may seem at times an Herculean-type series of tasks, that will take on forever, these are in fact, at least when managed by professionals who are experienced to tackle them, achievable in a sensical timeline, one where the benefits one reaps of going through it can be witnessed fairly quickly. The reason I started this point with “Learn” is that in order for this process to be successful, it has to be a convergence of so many points of view, but all of them have to be integrated through a well informed lens, and that is something that only becomes a reality through education.</p><p><strong>Reflect. </strong>It’s ironic that across the many teams I’ve worked with and even during interviews I performed with various business representatives/organizations for different research endeavors, there’s always expressions that are repeated over and over again. “We had to do everything so rapidly…”, “”We were learning as we were going, we couldn’t stop…”, all sorts of expressions that come across as justifications for what were, at times at least, some questionable decisions. I’m a firm believer that every situation is indeed a learning one, whatever that situation may be. However I’m also very much a firm believer that informed decisions are the best ones, particularly when those decisions involve funds, time, and talent. If you are indeed in a position to set some solutioning endeavor in motion, and before jumping into it without considering how all variables come together, and in particular Design and its process, take the time to discuss with professionals in the field how a well applied Design process can make all the difference. Discuss timelines, talent, funding, activities, outcomes, alignment with other directives. The goal is to bring all these variables to the forefront, and to be able to position them in a way where everyone understands their role, tasks, costs, and just how a timeline will be established. Being thorough and methodical doesn’t mean taking forever: it means being responsible, aware, and better prepared for what comes next.</p><p>I’ll end this article with a quote from <a href=\"https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson\">Ralph Waldo Emerson</a>:</p><blockquote><strong>“Nature is methodical, and doeth her work well. Time is never to be hurried.”</strong></blockquote><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=f6c63838907e\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/design-process-methodical-versus-bloated-f6c63838907e\">Design Process: Methodical versus Bloated</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:56:37",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "Usability Testing Metrics and How to Use Them",
+    "link": "https://uxplanet.org/usability-testing-metrics-and-how-to-use-them-2b77cb353793?source=rss----819cc2aaeee0---4",
+    "summary": "<p>Usability testing should always be part of product development. Ideally, it is conducted before release, but in practice it can be useful at different stages. It’s worth pointing out that, “testing” isn’t a goal in itself. Without knowing exactly what you want to measure, you risk ending up with feedback you can’t interpret or act on.</p><p>Every usability study can focus on a different aspect of the experience, and the right metrics depend on your research goals. This article outlines some of the most common usability testing metrics and how they can be applied in practice.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*LrrEeg-AKr9UCWQa.jpg\" /><figcaption>Image Source: Unsplash</figcaption></figure><h3>Scenario</h3><p>To make the following metrics easier to follow, let’s use a single scenario throughout:</p><p><strong><em>Suppose your team has just released a new “Add to Wishlist” feature in an e-commerce app. You want to understand whether users can find and use it without confusion.</em></strong></p><p>For this, you recruit 5 participants and give them realistic tasks, such as <em>“Find a product you like and add it to your wishlist.”</em> As we go through the metrics, we’ll refer back to this example to see how each measurement works in practice.</p><h4>1. Task Success Rate</h4><p>Task success rate is the most widely used and arguably the most important usability testing metric. It’s a simple yes-or-no measure: <strong>were participants able to complete the task or not?</strong></p><p>Most product teams often set a benchmark for this metric, such as requiring at least 80% of participants to succeed before a feature is considered ready for launch. The exact threshold depends on the product, its complexity, and how critical the task is.</p><p>In our example, the task is: <em>“Find a product you like and add it to your wishlist.”</em> If 4 out of 5 participants complete it successfully, your task success rate is 80%. If only 2 succeed, you immediately know the design needs significant improvement before release.</p><h4>2. Time on Task</h4><p>Time on task measures <strong>how long it takes participants to complete the task</strong>. Unlike task success rate, which is binary, this metric shows efficiency. Even if users eventually succeed, taking too long can be just as problematic as failing altogether.</p><p>Teams often set benchmarks for how much time a task should reasonably take. For simple interactions, the expectation might be less than a minute. If participants consistently take 5 or more minutes, you can assume that real users who are far less patient in wild would likely give up before finishing.</p><p>In our wishlist example, you might expect users to spot the “Add to Wishlist” button within 5 seconds of opening a product page. If a participant spends a full minute scanning the screen before finding it, that’s a clear signal the feature isn’t obvious enough.</p><p>When documenting this metric, simply run a timer during each attempt. For example:</p><ul><li>Participant 1: 10 seconds</li><li>Participant 2: 70 seconds</li><li>Participant 3: 18 seconds</li></ul><p>Time on task is also useful for tracking learning curves. For example, a participant might need 70 seconds on their first attempt, but only 30 seconds the second time. That difference shows how quickly users adapt, which is valuable for features that require repeat usage.</p><h4>3. Error Rate</h4><p>Error rate tracks <strong>how often participants make mistakes while completing a task</strong>. A task can still be completed successfully, but if users stumble through errors along the way, that’s a sign the design isn’t intuitive.</p><p>Errors can include things like:</p><ul><li>Clicking the wrong button</li><li>Misinterpreting an icon or label</li><li>Navigating to the wrong screen before correcting themselves</li><li>Repeatedly trying an action that doesn’t work</li></ul><p>In our wishlist example, the task is: <em>“Find a product you like and add it to your wishlist.”</em> Suppose one participant tries tapping the product image itself instead of the “Add to Wishlist” icon, or another participant keeps adding the item to favorites instead of wishlist. Even if they eventually manage to add an item to the wishlist, those detours count as errors.</p><p>To document this metric, you simply note down the mistakes for each participant. For example:</p><ul><li>Participant 1: 2 errors (tapped product image, opened cart)</li><li>Participant 2: 0 errors</li><li>Participant 3: 1 error (confused by unlabeled heart icon)</li></ul><p>High error rates suggest that users are guessing rather than confidently interacting. Even if task success and time on task look acceptable, frequent errors can lead to frustration and reduce long-term satisfaction with the product.</p><h4>4. Number of Assists</h4><p>The number of assists measures <strong>how often a facilitator or moderator needs to step in and help a participant complete a task</strong>. In an ideal world, participants should be able to figure things out on their own. Every time you have to explain, clarify, or point something out, it signals a usability issue.</p><p>In our wishlist example, the task is: <em>“Find a product you like and add it to your wishlist.”</em> If a participant stares at the screen for over a minute and finally asks, <em>“Where is the wishlist button?”</em> and you have to show them counts as an assist.</p><p>Documenting this is simple:</p><ul><li>Participant 1: 0 assists</li><li>Participant 2: 1 assist (needed help locating the icon)</li><li>Participant 3: 2 assists (asked what “wishlist” means, then couldn’t find the button)</li></ul><p>Tracking assists is valuable because it shows where users would likely get stuck in real-world conditions where no one is there to guide them. Even if task success looks high, a design that depends heavily on assistance isn’t usable in practice.</p><h4>5. Path Deviation</h4><p>Path deviation measures <strong>how closely participants’ actions match the intended or optimal path</strong> you designed for completing a task. In other words, it tracks the detours users take.</p><p>A task can still be completed successfully, but if participants wander through unnecessary screens, click unrelated elements, or backtrack multiple times, it suggests your design isn’t guiding them clearly enough.</p><p>In our wishlist example, the optimal path might be:</p><ol><li>Open a product page</li><li>Click the “Add to Wishlist” button</li></ol><p>If a participant instead goes:</p><p>Home page → Cart → Back to Home → Product page → Add to Wishlist, that’s a path deviation. They got there in the end, but the extra steps reveal friction.</p><p>You can document this by mapping each participant’s actual path and comparing it to the intended one. For instance:</p><ul><li>Participant 1: Followed optimal path (0 deviations)</li><li>Participant 2: Went to Cart first (1 deviation)</li><li>Participant 3: Opened Search → Home → Product page → Wishlist (2 deviations)</li></ul><p>High deviation rates don’t always mean failure, but they do show where your design is misleading or cluttered. Reducing unnecessary detours makes the product faster, smoother, and less frustrating.</p><h4>6. Perceived Ease of Use</h4><p>Perceived ease of use is a simple attitudinal metric: after completing a task, you ask participants <strong>“On a scale of 1 to 10, how easy or difficult was this task?”</strong> The score reflects their subjective impression, not just whether they managed to finish.</p><p>For example, after asking participants to add an item to their wishlist, you might collect ratings like:</p><ul><li>Participant 1: 9</li><li>Participant 2: 7</li><li>Participant 3: 5</li></ul><p>You can then calculate the average across all participants. Many teams set a minimum threshold (for example, an average of 6.5 or higher) as a goal.</p><p>This metric matters because people’s perception of difficulty often shapes their willingness to return. Even if they succeed quickly, if they <em>feel</em> the task was confusing, they’re less likely to trust or enjoy using the feature.</p><h4>7. Error Recovery Rate</h4><p>Error recovery rate measures <strong>how often participants are able to recover from mistakes on their own</strong> during a task. While error rate tells you how many mistakes happen, this metric shows whether users can recognize the error and fix it without external help.</p><p>In our wishlist example, a participant might first tap the shopping cart instead of the “Add to Wishlist” button. If they realize the mistake, go back, and then successfully add the product to the wishlist, that counts as an error recovery. If they get stuck or abandon the task, that’s a failed recovery.</p><p>You can document this by tracking errors alongside recovery attempts:</p><ul><li>Participant 1: 2 errors, 2 recoveries (100% recovery rate)</li><li>Participant 2: 1 error, 0 recoveries (0% recovery rate)</li><li>Participant 3: 3 errors, 2 recoveries (67% recovery rate)</li></ul><p>An important detail is whether users even notice they’ve made an error. If they don’t realize it, that can be a serious problem. For example, if someone taps “Add to Wishlist” but nothing happens and they assume it worked, you need to make the interaction clearer through confirmation messages, animations, or visual state changes. A lack of awareness means errors go uncorrected, and the system silently fails the user.</p><p>It’s also worth noting that error recovery isn’t equally critical for every product. For some apps, a missed wishlist item isn’t the end of the world. But in domains like financial services, healthcare, or insurance, making sure users immediately recognize and recover from errors is essential. The consequences of unnoticed or unrecoverable errors in these contexts can be far more serious than simple frustration.</p><h4>8. Confidence Level</h4><p>Confidence level measures <strong>how confident participants feel about the actions they took during a task</strong>. Even if they completed it successfully, a low confidence score suggests they weren’t sure they did the right thing which often translates into hesitation or second-guessing in real use.</p><p>This is typically measured by asking a simple post-task question like:<br /> <em>“On a scale of 1 to 5 (or 1 to 10), how confident are you that you completed the task correctly?”</em></p><p>In the wishlist example, a participant might add an item but not see a confirmation message or clear animation. As a result, they think, <em>“I’m not sure if it worked.”</em> That’s a low confidence score, even though technically the item was added. Another participant might click <strong>“Add to Favorites”</strong> instead of <strong>“Add to Wishlist”</strong> and believe they succeeded. In that case, confidence might be high, but the task success rate is actually a failure because they didn’t complete the correct action.</p><p>Documenting this can look like:</p><ul><li>Participant 1: Confident (9/10)</li><li>Participant 2: Unsure (4/10, didn’t notice confirmation)</li><li>Participant 3: Confident but incorrect (8/10, used Favorites instead of Wishlist)</li></ul><p>Confidence level is valuable because it reveals gaps between what users think happened and what actually happened. Low confidence often points to poor feedback or unclear system status. False confidence exposes mislabeling or misleading design choices. Both are signals to refine clarity and trust in the interface.</p><h3>Documenting Usability Metrics</h3><p>Collecting the data is only half the job; documenting it in a consistent, readable way is just as important. You don’t need specialized software. Simple spreadsheets, Notion tables, or even pen and paper all work. The key is to be consistent and leave space for additional notes or observations.</p><p>Here’s an example of how a simple table might look:</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*p9u4UWHWgbWakz3EadK0gQ.png\" /><figcaption>Notion table</figcaption></figure><p>For usability testing with a larger number of participants, it can also be useful to record demographics such as age, gender, or level of digital experience. This helps you see whether certain usability issues correlate with specific groups. For example, adding an item to a wishlist may feel completely natural for Gen Z participants but less intuitive for Gen X, revealing design assumptions that might exclude part of your audience.</p><p>Usability testing is more than just watching people interact with your product , it’s about measuring, though careful observation is still a critical part of the process. Metrics turn those observations into actionable insights. The key is to focus on the ones that align with your goals, document them consistently, and look for patterns across participants.</p><p>If you’d like to dive deeper into strategies for running stronger usability studies, check out my article: <a href=\"https://medium.com/design-bootcamp/5-ways-to-improve-your-usability-studies-8033b88f9fd0\">5 Ways to Improve Your Usability Studies</a>.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=2b77cb353793\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/usability-testing-metrics-and-how-to-use-them-2b77cb353793\">Usability Testing Metrics and How to Use Them</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:56:33",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "AI is not a Cost Saver. Use it to Reinvent Digital Value",
+    "link": "https://uxplanet.org/ai-is-not-a-cost-saver-use-it-to-reinvent-digital-value-a92c797aa9c4?source=rss----819cc2aaeee0---4",
+    "summary": "<p><em>Why AI-led experiences must go beyond automation to reshape how we sell, serve, and scale.</em></p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*xFqJrnnRyLHwfAQo\" /></figure><p>For most companies today, AI means one thing: <strong>optimization</strong>.</p><ul><li>Automate repetitive tasks</li><li>Reduce human dependency</li><li>Cut support costs</li><li>Drive process efficiency</li></ul><p>This mindset isn’t wrong — but it’s <em>deeply limiting</em>.</p><p>Because if your entire AI ambition is built around internal savings, you’re missing its far more disruptive potential: <strong>to reinvent how your product creates and delivers value in the first place.</strong></p><h3>AI’s True Potential Lies in System Innovation</h3><p>AI isn’t just a tool to make existing workflows faster. It’s a catalyst to rethink <strong>how entire systems work</strong>.</p><p>We’re entering an era where AI lets us break out of legacy product metaphors — menus, flows, dashboards — and build <strong>intelligent, behavior-led ecosystems</strong> instead.</p><p>Not just smoother UIs.<br />Not just automated support.<br />But new <strong>experience paradigms</strong> across CX, service, and even revenue models.</p><p>This means stitching together different AI capabilities — recommendation, memory, language, prediction, orchestration — to create seamless, evolving, assistive systems that behave more like agents than interfaces.</p><h3>Example: The Future of Digital Selling</h3><p>Today’s e-commerce still looks like a catalog. Users browse, filter, add to cart, check out.</p><p>But now imagine this:</p><blockquote><em>“You returned your last pair. Based on that, and your upcoming travel, here’s a curated list I’ve prepared. Want me to hold them till payday?”</em></blockquote><p>No menus. No effort. Just contextual, memory-aware interaction that behaves like a <strong>personal sales assistant</strong>.</p><p>This is AI applied not for process automation — but for <strong>experience orchestration</strong>.<br /> An interface that doesn’t just serve, but <strong>sells</strong>.</p><h3>Example: Redefining Digital Health Products</h3><p>Most health apps still focus on navigation — booking, records, vitals.</p><p>But an AI-powered care system could:</p><ul><li>Recognize stress or hormonal symptoms based on time patterns</li><li>Summarize everything your doctor needs in a contextual briefing</li><li>Adjust lifestyle guidance based on real-world behavior</li><li>Nudge you toward behavior change before the issue worsens</li></ul><p>This isn’t process improvement. It’s a <strong>system-level reimagination</strong> — where the product becomes your care partner.</p><h3>We Can’t Build These Systems with SDLC</h3><p>These kinds of agentic, intelligent, evolving experiences <strong>don’t emerge from feature roadmaps and phased delivery</strong>.</p><p>You can’t treat AI as a bolt-on.</p><p>You need <strong>new frameworks</strong> that start with:</p><ul><li><strong>Value creation</strong>, not screen flows</li><li><strong>Key behaviors</strong>, not requirements docs</li><li><strong>Experience orchestration</strong>, not IA</li><li><strong>Continuous learning</strong>, not static feature stacking</li></ul><p>The SDLC and traditional UX methodologies were built for stable needs, motivated users, and rigid architectures. That world is gone.</p><p>Today, <strong>your product must behave</strong> — respond, adapt, remember, guide.</p><h3>Final Word</h3><p>If you’re still using AI to “automate the flow,”<br /> you’ve already missed the point.</p><p>AI isn’t here to improve the way we build.</p><p>It’s here to change <strong>what we build entirely</strong>.</p><p>And companies who understand that will stop shipping faster dashboards and start designing <strong>living systems of value</strong>.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=a92c797aa9c4\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/ai-is-not-a-cost-saver-use-it-to-reinvent-digital-value-a92c797aa9c4\">AI is not a Cost Saver. Use it to Reinvent Digital Value</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:56:31",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "Creative Crushes: How Loving Other People’s Work Fuels Your Own",
+    "link": "https://uxplanet.org/creative-crushes-how-loving-other-peoples-work-fuels-your-own-49cc05c73576?source=rss----819cc2aaeee0---4",
+    "summary": "<p>Where does inspiration come from? For many creatives, it starts with something simple — admiration. A beautiful interface, a striking poster, a clever animation. But sometimes, admiration turns into something deeper — a creative crush. And that feeling, if you let it grow, can become one of the most powerful sources of creative energy.</p><p>This isn’t about copying. It’s about connection. When we fall in love with someone else’s work, we don’t just appreciate it — we want to respond. To make. To contribute. In this way, love becomes a kind of fuel — invisible, renewable, and contagious.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*sTLe3kjc1PcLmTlaOwGzeA.png\" /></figure><h3>The Energy of Admiration</h3><p>Every designer knows this moment: you stumble across a piece of work that just <em>gets</em> you. It might be a font, a layout, or a color palette — but suddenly, you feel something shift. You’re not just looking. You’re feeling.</p><p>That spark? It’s more than excitement. It’s an invitation to create.</p><p>Creative love isn’t passive — it activates you. It turns viewing into making. And if you follow it, you’ll find yourself in a flow state: focused, energized, timeless. The kind of deep focus that delivers more than a week of scheduled productivity ever could.</p><h3>Don’t Steal — Transform</h3><p>There’s a fear in design culture around “too much influence.” But when love is real, it transforms the source. Quentin Tarantino once said, “I steal from every movie ever made. I love them!” He wasn’t talking about copying scenes — he was describing a creative remix powered by genuine devotion.</p><p>Design works the same way. When you fall for a visual language, a pattern, or a concept, that crush becomes raw material. What you make from it will be yours — filtered through your style, your sensibility, your constraints. The secret is to let your love speak, not echo.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*O896QronxnrPnRsyPVsjMA.jpeg\" /></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*WeksPLsr24-4A1xBx5pctQ.jpeg\" /></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*TjM9kb6jDrX3uMkUnnuLqg.jpeg\" /></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*LElGjdAJZkoAMz6_zVpZog.jpeg\" /></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*yMpoxwj5E7hfIbj-PODrXA.jpeg\" /></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*sPvAsN0LDK1C3kxO97jXVQ.jpeg\" /></figure><h3>Design as a Language of Emotion</h3><p>We often think of design as problem-solving — and it is. But it’s also emotional. The warmth of a hover animation. The rhythm of transitions. The quiet delight of a balanced layout. Good design doesn’t just <em>work</em> — it <em>feels</em> right.</p><p>Like film or music, design is an emotional medium. We communicate not just with visuals, but with atmosphere. A layout can feel soft. A button can feel confident. That emotional tone is how design builds trust — or joy, or curiosity — at scale.</p><h3>Influence Isn’t Imitation — It’s Legacy</h3><p>All designers are shaped by those who came before them. Jonny Ive never hid his debt to Dieter Rams — he spoke openly about how Rams’ principles deeply resonated with him. But he didn’t clone Braun products. He absorbed the thinking, and transformed it into something iconic for Apple.</p><p>Creative love across generations is how design evolves. It’s not mimicry — it’s gratitude, translated into form.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*2wAnX5Evor0KVHZNE_uOOw.png\" /></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*_aVbRHIwF6zw0J-u8Wq82g.jpeg\" /></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/550/1*oLS-aYg8nvXN4slNWHTxFw.jpeg\" /></figure><h3>Flow = Creative Love in Action</h3><p>Psychologists call it “flow,” but let’s call it what it really is: love in motion. When you care deeply about the work, time dissolves. You forget yourself. You <em>are</em> the process.</p><p>In this state, perfectionism fades. You’re not afraid to try, fail, or explore. Mistakes become part of the journey. What matters isn’t control — it’s connection.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*OYAw9y-Udjl0ke12SRB04Q.png\" /></figure><h3>The Work That Sticks Always Feels Personal</h3><p>You can tell when something was made with love. A piece of UI. A type treatment. A set of microinteractions. These small, human touches are technically unnecessary — but emotionally vital.</p><p>They’re what makes a project memorable. They’re why people return, sometimes without knowing why. They carry a designer’s signature — not with a name, but with intention.</p><h3>When You’re Tired, Go Back to What Moved You</h3><p>Creative burnout is real. But when the energy runs out, the solution isn’t always rest — sometimes it’s <em>remembering</em>. What piece of work first made you want to design? What video, song, or app made you feel something?</p><p>That feeling — that spark — is your core creative fuel. It may get buried under deadlines, deliverables, and strategy decks. But it’s still there. Find it, and you’ll find your energy.</p><h3>Final Thought: Love Is the Real Strategy</h3><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*y93x5kKtd8-850EIAvLKZw.png\" /></figure><p>Creative love isn’t sentimentality. It’s a working principle. It keeps you going when process fails. It connects you to your users. It gives your work texture, meaning, and emotional resonance.</p><p>And when it’s real, it’s felt. Your audience may not be able to name it — but they’ll feel it. That’s why we fall in love with design in the first place. Not because it’s perfect. But because it’s human.</p><p>So the next time something inspires you — don’t just scroll past it. Listen. That pulse you feel? That’s not just admiration. That’s creative momentum. And it’s yours to follow.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=49cc05c73576\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/creative-crushes-how-loving-other-peoples-work-fuels-your-own-49cc05c73576\">Creative Crushes: How Loving Other People’s Work Fuels Your Own</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:56:26",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "5 AI Design Tools That Make Design More Efficient in 2025",
+    "link": "https://uxplanet.org/5-ai-design-tools-that-make-design-more-efficient-in-2025-2a96f53be528?source=rss----819cc2aaeee0---4",
+    "summary": "<h3><strong>Best AI tools for Product Designers in 2025</strong></h3><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/640/0*31IcsYMXU_dFSzvE.png\" /><figcaption><a href=\"https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fblog.duda.co%2F30-ai-design-tools-for-agencies&amp;psig=AOvVaw1LX4gm_NMYoftgvpFXH8_e&amp;ust=1755659752195000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBYQjRxqFwoTCPjVsLH0lY8DFQAAAAAdAAAAABAL\">image source</a></figcaption></figure><p>Last Tuesday, I watched a product manager at a mid-size fintech startup do something that would have been impossible six months ago. In under 20 minutes, she went from a rough idea sketched on a napkin to a fully interactive prototype that her team could test with real users. No designer, no developer, no lengthy handoffs; just her, a laptop, and the right AI tools.</p><p>This isn’t some distant future scenario. According to Figma’s 2025 AI Report, one in three product builders is launching AI-powered products this year: a 50% increase from last year. But here’s what caught my attention: <strong>52% of AI builders say design is more important for AI-powered products than traditional ones</strong>. We’re not just automating design; we’re elevating it.</p><h3>The Invisible Revolution in Your Design Toolkit</h3><p>While everyone was debating whether AI would replace designers, something more interesting happened: it started making them exponentially more effective. The tools that emerged in 2025 don’t just generate pretty pictures — they’ve fundamentally changed how product teams work together.</p><p>Take what happened at Figma’s Config 2025 conference in May. Among the four major product launches, <strong>Figma Make</strong> stood out not for its technical prowess, but for how it collapsed the traditional boundaries between roles. Suddenly, product managers could create functional prototypes, engineers could quickly visualize complex interactions, and designers could test ideas that would have taken weeks to implement.</p><p>But Figma isn’t alone in this transformation. The past six months have seen an explosion of AI tools specifically designed to accelerate product design workflows, each addressing different pain points in the design-to-development pipeline.</p><h3>The New Essential Toolkit: Five Categories Changing Everything</h3><h3>1. Intelligent Research Synthesis</h3><p><strong>The Problem:</strong> User research used to be a bottleneck. Hours of interview transcripts, scattered feedback, and the eternal struggle to find patterns in qualitative data.</p><p><strong>The Solution:</strong> Tools like <strong>Dovetail’s Magic Suite</strong> and <strong>Maze AI</strong> are automating the grunt work of research analysis. Dovetail’s Magic Highlight surfaces key moments in user interviews automatically, while Magic Cluster groups feedback into themes without manual tagging. Maze AI goes further, detecting bias in research questions and generating contextual follow-ups during live interviews.</p><p><strong>Real Impact:</strong> Teams that used to spend 3–4 days synthesizing research findings are now doing it in under an hour, with more comprehensive insights than manual analysis ever provided.</p><h3>2. Prompt-to-Prototype Generators</h3><p><strong>The Game Changer:</strong> <a href=\"https://www.figma.com/make/\"><strong>Figma Make</strong></a> has moved from beta to general availability, allowing anyone to generate interactive prototypes from simple text descriptions. But it’s not just about speed; it’s about exploration. When the cost of testing an idea drops to nearly zero, teams test more ideas.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*0a1e-ejK0WIZA1Qx\" /><figcaption><a href=\"https://www.figma.com/make/\">Figma Make</a></figcaption></figure><p><strong>The Emerging Competition:</strong> Tools like <a href=\"https://lovable.dev/\"><strong>Lovable</strong></a> and <a href=\"https://replit.com/\"><strong>Replit’s Agent</strong></a> are creating similar prompt-to-app experiences, while <a href=\"https://www.canva.com/ai-code-generator/\"><strong>Canva Code</strong></a> is bringing interactive elements to marketing teams.</p><p><strong>Designer Perspective:</strong> “Now designers, engineers, and product managers can all make high-fidelity artifacts to bring to the team for a more informed discussion,” says Gui Seiz, Design Director at Figma. “It’s a mindset shift that encourages you to play, take risks, and come up with more interesting solutions.”</p><h3>3. Context-Aware Visual Generation</h3><p><strong>Beyond Basic AI Art:</strong> While Midjourney creates beautiful images, tools like <a href=\"https://www.adobe.com/products/firefly.html\"><strong>Adobe Firefly</strong></a> and <strong>Photoroom’s new AI suite</strong> are designed specifically for product work. Firefly integrates directly into Photoshop and Illustrator, enabling rapid iteration on UI components and visual assets. Photoroom’s Product Beautifier, launched in April 2025, automatically optimizes product photos for e-commerce without requiring photography expertise.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*OVSgM4gfrvcb9NKJ.jpg\" /><figcaption><a href=\"https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.neowin.net%2Fnews%2Fadobe-commercially-releases-firefly-generative-ai-for-photoshop-illustrator-and-express%2F&amp;psig=AOvVaw1BzVEGYCnPu5EqJRKD5ZwX&amp;ust=1755658767117000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBYQjRxqFwoTCKCn_drwlY8DFQAAAAAdAAAAABAL\">Adobe Firefly</a></figcaption></figure><p><strong>The Practical Win:</strong> Design teams are cutting asset creation time by 60–70% while maintaining brand consistency, something that generic AI art tools struggle with.</p><h3>4. Intelligent Layout and Responsive Design</h3><p><strong>The Technical Breakthrough:</strong> Figma’s new <a href=\"https://help.figma.com/hc/en-us/articles/31289469907863-Use-the-grid-auto-layout-flow\"><strong>Grid</strong></a> feature uses AI to create responsive layouts that automatically generate clean CSS code for developers. It’s not just about making things look good — it’s about creating designs that translate seamlessly to code.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/960/0*FbDn-AzcyQhcsTvj\" /><figcaption>figma Grid Auto-layout</figcaption></figure><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*nlGQdaj1edm688Yr\" /></figure><p><strong>Broader Trend:</strong> Tools like<a href=\"https://www.uxpin.com/merge\"> <strong>UXPin Merge</strong> </a>are bringing code-based components directly into the design environment, while <a href=\"https://www.lummi.ai/\"><strong>Lummi AI</strong></a> provides intelligent layout suggestions based on proven design principles.</p><h3>5. Cross-Platform Workflow Integration</h3><p><strong>The Collaboration Revolution:</strong> <a href=\"https://www.notion.com/help/guides/category/ai\"><strong>Notion AI</strong></a> is quietly becoming essential for design teams, automatically summarizing user interviews and cleaning up meeting transcripts. Meanwhile, <a href=\"https://miro.com/ai/\"><strong>Miro AI</strong> </a>clusters brainstorming session notes by keywords and sentiment, making ideation sessions more structured and actionable.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*rI-DI7PVazq9_Ihq.png\" /></figure><p><strong>Why It Matters:</strong> When AI handles the administrative overhead of design work, teams spend more time on strategic thinking and creative problem-solving.</p><h3>A Practical Framework</h3><p>Ready to integrate AI into your design workflow? Here’s a practical approach:</p><p><strong>1. Research Phase Acceleration</strong></p><ul><li>Use <strong>Perplexity</strong> for competitive research and trend analysis</li><li>Set up <strong>Notion AI</strong> for meeting notes and user interview summaries</li><li>Implement <strong>Maze AI</strong> or <strong>Dovetail</strong> for research synthesis</li></ul><p><strong>2. Rapid Prototyping</strong></p><ul><li>Try <strong>Miro AI</strong> for more structured brainstorming sessions</li><li>Experiment with <strong>Figma Make</strong> for quick concept testing &amp; validation</li><li>Use <strong>Adobe Firefly</strong> for custom visual assets</li></ul><p><strong>3. Design-to-Development Bridge</strong></p><ul><li>Implement <strong>UXPin Merge</strong> or Figma’s <strong>Grid</strong> for responsive layouts</li><li>Use <strong>GitHub Copilot</strong> for custom interactions and micro-animations</li><li>Set up automated handoff processes with AI-generated documentation</li></ul><h3>The Plot Twist: Design Becomes More Human</h3><p>Paradoxically, as AI handles more of the technical execution of design, the human elements become more important. Empathy, strategic thinking, and creative judgment — the uniquely human aspects of design — are becoming the primary differentiators.</p><p><strong>David Kossnick, Head of AI Products at Figma</strong>, puts it perfectly: “AI is going to help humans explore much faster, go much further in their ideation, but I think all the human judgment, empathy, craft, taste is what it means to be the pilot, not the copilot.”</p><p>This isn’t about replacing designers, it’s about amplifying their impact. When the technical barriers to testing an idea disappear, teams can focus on testing the right ideas.</p><h3>The Future Is Already Here</h3><p>The most successful product teams of 2025 aren’t necessarily the ones with the biggest budgets or the most experienced designers. They’re the ones that have learned to leverage AI tools to compress the feedback loop between idea and execution.</p><p>The question isn’t whether AI will transform product design — it already has. The question is whether your team will be among the first to benefit from this transformation or among the last to adapt.</p><p>What’s your team’s AI adoption strategy? And more importantly, what idea have you been putting off because it seemed too complex to prototype quickly?</p><p>The tools to test it are already here. The only question is: what are you waiting for?</p><h3>References</h3><ol><li><a href=\"https://www.figma.com/blog/figma-2025-ai-report-perspectives/\">Figma’s 2025 AI Report: Perspectives From Designers and Developers</a></li><li><a href=\"https://techcrunch.com/2025/05/07/figma-releases-new-ai-powered-tools-for-creating-sites-app-prototypes-and-marketing-assets/\">Figma releases new AI-powered tools for creating sites, app prototypes, and marketing assets — TechCrunch</a></li><li><a href=\"https://openai.com/index/figma-david-kossnick/\">How Figma integrates AI to transform design and empower creatives — OpenAI</a></li><li><a href=\"https://maze.co/collections/ai/tools-for-product-designers/\">20 Best AI Tools &amp; Software for Product Designers in 2025 — Maze</a></li><li><a href=\"https://www.uxpin.com/studio/blog/ai-tools-for-designers/\">15 AI Tools for Designers in 2025 — UXPin</a></li><li><a href=\"https://www.photoroom.com/blog/new-ai-tools-launch-2025\">Photoroom launches 3 new AI tools for product photography</a></li><li><a href=\"https://www.figma.com/blog/figma-make-general-availability/\">Figma Make Is Now Available to All Users</a></li><li><a href=\"https://designlab.com/blog/best-ux-ai-tools\">Top 10 AI Tools for UX and Product Designers in 2025 — DesignLab</a></li><li><a href=\"https://www.figma.com/blog/config-2025-recap/\">Figma Config 2025: Pushing Design Further</a></li><li><a href=\"https://www.figma.com/reports/ai-2025/\">Figma’s 2025 AI Report — Full Report</a></li></ol><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=2a96f53be528\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/5-ai-design-tools-that-make-design-more-efficient-in-2025-2a96f53be528\">5 AI Design Tools That Make Design More Efficient in 2025</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:55:32",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "I Tested 5 AI Coding Tools So You Don’t Have To",
+    "link": "https://uxplanet.org/i-tested-5-ai-coding-tools-so-you-dont-have-to-b229d4b1a324?source=rss----819cc2aaeee0---4",
+    "summary": "<h3><strong>I Tested 5 Vibe Coding Tools So You Don’t Have To</strong></h3><h4>What Actually Works for Complete Beginners</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/0*nFu4XWr5BX7rzwYi.jpg\" /><figcaption><a href=\"https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Farnaudunjo.com%2F2025%2F06%2F22%2Fvibe-coding-the-immediate-future-of-application-development%2F&amp;psig=AOvVaw1AVS8bhS6zJ35eWht-VpGB&amp;ust=1755662365521000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBYQjRxqFwoTCNjngo_-lY8DFQAAAAAdAAAAABBE\">image source</a></figcaption></figure><p><em>I spent a week testing AI coding platforms with zero programming knowledge. Here’s what I discovered about the future of no-code development.</em></p><h3>The Promise vs. The Reality</h3><p>Last month, I had a simple idea: create an “art near me” app that would help people discover local galleries, street art, and creative spaces. As someone with zero coding experience, I figured this was the perfect opportunity to test the wave of AI coding tools promising to turn anyone into an app developer.</p><p>But after testing five major platforms, I learned that the gap between marketing promises and user reality is wider than most people realize.</p><p>Here’s what I discovered when I put <strong>Cursor, Lovable, Replit, Bolt, and Base 44</strong> to the test, and what it means for the future of democratized app development.</p><h3>The Testing Ground: Building an Art Discovery App</h3><p>I approached each platform with the same challenge: build a location-based app that could display art venues on a map, allow users to browse by category, and provide basic venue information. Nothing groundbreaking, but complex enough to test real capabilities.</p><p>My evaluation criteria were straightforward:</p><ul><li><strong>Platform usability</strong>: How intuitive was the tool itself?</li><li><strong>Output quality</strong>: Did it actually produce something functional and attractive?</li><li><strong>Real-world viability</strong>: Could a non-coder actually ship this?</li></ul><h3>The Winners and Losers</h3><h3><strong>1. Cursor + Xcode: The Developer’s Dream</strong></h3><p>Cursor impressed me with its real-time visualization and intelligent code suggestions. Recent comparisons show that Cursor is adopted by 7 million developers and Fortune 1000 companies, and I could see why: when it worked.</p><p>The problem? Debugging in Xcode felt like trying to perform surgery with oven mitts. For someone lacking coding fundamentals, Cursor's power becomes a liability because I'm unsure which part it's executing correctly and how to maintain that code. It’s like being handed the keys to a Formula 1 car when you’re still learning to drive.</p><h3><strong>2. Lovable: Beauty with Broken Promises</strong></h3><p>Lovable delivered on aesthetics. The UI was gorgeous, and the development experience felt polished and beginner-friendly. Industry reports consistently rank Lovable among the most accessible options for beginners, and I can confirm the visual editor is intuitive.</p><p>But then came the map feature, the core of my app. Despite the platform’s promises of comprehensive functionality, integrating location services required connecting to external APIs that demanded payment. For a simple prototype, this felt like hitting a blocker before I could even validate my idea.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/800/1*XAdAVzaDuOwHFvIxfYz06A.gif\" /><figcaption>Lovable’s result generating art near me app</figcaption></figure><h3><strong>3. Replit: Function Over Form</strong></h3><p>Replit shocked testers by building functional applications with navigation, data persistence, and visualizations that felt nearly ready to ship, and my experience aligned with these findings. While the UI wasn’t winning any design awards, Replit actually delivered working functionality.</p><p>The platform felt like the pragmatic middle ground — not the prettiest, but it got the job done. For beginners focused on learning and iteration rather than pixel-perfect design, Replit proved surprisingly capable.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/800/1*GZR6zAEW-FN63e-wyceo0Q.gif\" /><figcaption>Replit’s result generating art near me app</figcaption></figure><h3><strong>4.Bolt: The Phantom Platform</strong></h3><p>Less said about Bolt, the better. Despite its reputation in recent comparisons, my experience was frustrating. While some testing shows Bolt excelling at rapid prototyping with generation times of 15 seconds or less, I couldn’t get it to generate anything meaningful for my use case. Sometimes the gap between marketing and reality is a chasm.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/800/1*PeaA1Zhc4COASny3_azyHQ.gif\" /><figcaption>Bolt eventually encounters error when generating art near me app</figcaption></figure><h3><strong>5.Base 44: The Dark Horse</strong></h3><p>Here’s where things got interesting. Base 44 wasn’t on my radar initially, but it emerged as the most balanced solution. The platform UI was clean and clear, the output had both decent aesthetics and solid functionality, and crucially, the execution felt complete rather than half-baked.</p><p>What impressed me most was the platform’s transparency about capabilities and limitations. No overselling, no hidden paywalls for basic features. Just honest tool-building.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/800/1*cweebVAJb81MWQqzmm3zxg.gif\" /><figcaption>Base44’s result generating art near me app</figcaption></figure><h3>The Fairness Factor: A Critical Caveat</h3><p>Before diving deeper, I need to acknowledge something important: judging AI coding tools based on one project isn’t entirely fair. Each platform has specific strengths — Cursor for developer workflows, Lovable for design-heavy prototypes, Replit for collaboration and learning.</p><p>My location-based app happened to hit some platforms’ limitations while playing to others’ strengths. A different project might yield completely different results. But this single-prompt approach actually mirrors how most non-technical users experience these tools — with one specific idea, not a comprehensive testing suite.</p><h3>What This Means for the No-Code Revolution</h3><p>My experience reveals three critical insights about where AI coding tools stand in 2025:</p><p><strong>1. The Skills Gap Still Exists</strong> Despite projections that citizen developers will outnumber professional developers by 4 to 1, many platforms still assume foundational technical knowledge. The promise of “anyone can build apps” remains aspirational for true beginners.</p><p><strong>2. Feature Completeness Varies Wildly</strong> The most beautiful interfaces often hide significant limitations, while less polished platforms deliver more complete functionality. In a market expected to generate $187 billion by 2030, user experience remains inconsistent.</p><p><strong>3. The Real Winners Focus on Execution</strong> The platforms that impressed me most weren’t the most feature-rich or aesthetically pleasing; they were the ones that delivered on their core promises without surprises.</p><h3>The Framework for Choosing Your AI Coding Tool</h3><p>Based on my testing, here’s how non-coders should evaluate these platforms:</p><p><strong>Start with Honesty</strong>: What’s your actual technical skill level? Platforms like Cursor reward existing knowledge, while tools like Lovable cater to complete beginners — but each has trade-offs.</p><p><strong>Define “Good Enough”</strong>: Are you building a prototype to test an idea, or do you need something production-ready? Your goals should dictate your platform choice.</p><p><strong>Test the Core Features First</strong>: Don’t get distracted by beautiful demos. Build the most critical part of your app first. If the platform can’t handle your core functionality, everything else is irrelevant.</p><p><strong>Budget for Reality</strong>: Factor in potential API costs, integration fees, and the time you’ll spend learning each platform’s quirks.</p><h3>Looking Forward: The Promise Remains</h3><p>Despite my mixed results, I’m optimistic about the direction of AI coding tools. The convergence of AI with low-code platforms, enabling natural language app development and automated code generation, will further lower barriers to app creation.</p><p>The democratization of app development is happening, just more slowly and messily than the marketing suggests. The winners will be the platforms that prioritize honest communication about capabilities over flashy demos.</p><p>For now, the most valuable skill isn’t learning to code; it’s learning to evaluate these tools critically and choose the one that matches your actual needs, not your aspirational ones.</p><p>The future where anyone can build apps is coming. We’re just not quite there yet.</p><h3>References</h3><ol><li>An Opinionated Guide on the Best AI Coding Tools in 2025. Colin Matthews. Retrieved from creatoreconomy.so</li><li>Lovable vs Replit vs Cursor vs Bolt vs v0: AI Coding Tools Compared. Daily Genius. Retrieved from dailygenius.com</li><li>35 Must-Know Low-Code Statistics and Facts for 2025. Kissflow. Retrieved from kissflow.com</li><li>26 No-code and low-code trends for 2025. Hostinger. Retrieved from hostinger.com</li><li>37 No-Code Market Growth Statistics Every App Builder Must Know in 2025. Adalo Blog. Retrieved from adalo.com</li></ol><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=b229d4b1a324\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/i-tested-5-ai-coding-tools-so-you-dont-have-to-b229d4b1a324\">I Tested 5 AI Coding Tools So You Don’t Have To</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:55:26",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "Designing for Baby Boomers",
+    "link": "https://uxplanet.org/designing-for-baby-boomers-62455f840b92?source=rss----819cc2aaeee0---4",
+    "summary": "<h4>Why Values Matter More Than Accessibility</h4><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*3zw5vG5UcWA7ff7H26GSyw.jpeg\" /></figure><p>The majority of design discussions about this generation focus primarily on accessibility, including clear instructions, closed captions, and larger text. Even though those things are important, they are just the tip of the iceberg.</p><p>Boomers, who are now in their 60s and 70s, do not consider themselves “old.” They do not consider aging to be a gradual decline. Rather, they anticipate continuing to live fully, which includes traveling, interacting with others, learning, and prospering.</p><p>Understanding boomers’ values, what drives them, what matters to them, and why they interact with products in the first place is essential to creating experiences that are genuinely meaningful to them.</p><h4><strong>1. Connection: Staying Close, Staying Curious</strong></h4><p>Thanks to technology, this generation is far more connected than their parents were. Snapchat, TikTok, Instagram, Facebook, Zoom, FaceTime, and texting are commonplace lifelines, not alien technologies.</p><blockquote>“Technology is a bridge to family, friends, and community it is not terrifying to boomers.”</blockquote><p>Whether it’s asking a friend about a restaurant or thoroughly researching online reviews before making a purchase, boomers love to stay in touch and appreciate shared opinions.</p><p>They have sophisticated tastes as well. They have no concerns about demanding well-thought-out experiences and thoughtful design. For designers, this means that their products should not feel simplistic or condescending, but rather human, intuitive, and socially connected.</p><h4><strong>2. Wellness: Living Longer, Living Better</strong></h4><p>For boomers, wellness is a way of life, not a fashion statement. They are looking for products and services that will enable them to live longer, healthier, and more fulfilling lives.</p><blockquote>“The goal of wellness for boomers is to prolong vitality, not to reverse decline.”</blockquote><p>Boomers are open to innovations that promote their well-being, such as pill-dispensing robots and telehealth visits. Instead of separating themselves as strictly medical, even healthcare providers are repositioning themselves to fit into the retail and lifestyle sectors.</p><p>The design challenge? Make wellness experiences empowering, not limiting. Products should feel like they’re enabling freedom, not reminding people of age-related challenges.</p><h4><strong>3. Independent Choice: Freedom Above All</strong></h4><p>For boomers, independence is arguably the most defining value. They have strong memories of seeing their parents lose their independence as they grew older, and they are resolved to avoid experiencing the same thing.</p><blockquote>“Independence is a must for baby boomers.”</blockquote><p>They want to have a say in their living arrangements, modes of transportation, level of care, and experiences. Because ridesharing apps provide mobility without compromising independence, they have become extremely popular among baby boomers.</p><p>Offering flexibility, customization, and multiple ways to complete a task are all part of designing with choice in mind. The goal is to produce goods that convey the message that you are in charge.</p><h4>Designing Beyond Accessibility</h4><p>Indeed, slower learning curves, shaky hands, and deteriorating vision all require tactical design considerations. However, if we only concentrate on that, we fail to see the wider picture.</p><p>The true query is:</p><ul><li>Does our product enable boomers to lead happy lives?</li><li>Does it help them achieve their objectives?</li><li>Does it align with their values of independence, well-being, and connection?</li></ul><p>Design takes on meaning when values are prioritized. For baby boomers, that means designing experiences that promote health, value independence, and foster relationships.</p><p><strong>Because empowerment is ultimately more important than accessibility.</strong></p><p>If you’re designing for boomers, keep this in mind:</p><blockquote><em>“They don’t want to feel old. They want to feel alive.”</em></blockquote><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=62455f840b92\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/designing-for-baby-boomers-62455f840b92\">Designing for Baby Boomers</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:55:17",
+    "source_feed": "https://uxplanet.org/feed"
+  },
+  {
+    "title": "All Manna of Drone UX Design",
+    "link": "https://uxplanet.org/all-manna-of-drone-design-5ed72d17c157?source=rss----819cc2aaeee0---4",
+    "summary": "<p><em>Drones, Design, and Jobs To Be Done. What is the problem being solved?</em></p><p>Dontcha <em>love</em> design stakeholders? I read about the furore over plans to introduce drone delivery for fast food, café orders, and non-essentials (I couldn’t make it work for prescription medicines) to homes in South County Dublin (B2C, or D2C, if you prefer). The Irish company involved is called Manna (good luck with the international expansion into the Middle East). <a href=\"https://www.thejournal.ie/drone-deliveries-dundrum-6793680-Aug2025/\">What could <em>possibly</em> go wrong?</a> <a href=\"https://www.irishtimes.com/business/2025/08/20/you-can-keep-your-drones-residents-express-concerns-about-drone-deliveries-from-dundrum-at-meeting-with-manna-boss/\">Everything</a>, it seems.</p><p>Regardless, the question arises: exactly what problem is being solved by home delivery drones? The qualitative data I’ve seen does not support the claim that drones are significantly cheaper or a faster end-to-end delivery solution for fast food consumers.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/705/1*ZC0aduCCqI7nx8mhfkktew.png\" /><figcaption>Manna app user experience. Screen capture by author.</figcaption></figure><p>Clay Christensen’s famous <em>Harvard Business Review</em> “<a href=\"https://www.christenseninstitute.org/theory/jobs-to-be-done/\">Jobs To Be Done</a>” framework example of the “milkshake hired for the morning commute” showed how the problem being solved for drivers was not hunger, but boredom during the journey.</p><a href=\"https://medium.com/media/a496a0d1576fd7cced7bb40debf390f0/href\">https://medium.com/media/a496a0d1576fd7cced7bb40debf390f0/href</a><p>Could it be that the problem that home delivery drones solve is not just logistical, but the lack of decent entertainment or novelty in people’s lives? Could it be that the real competitive edge for home delivery drones isn’t against bike delivery or takeaways, but TikTok, Netflix, Spotify, and bouncy castles? The<a href=\"https://therewiredgroup.com/case-studies/milkshakes/\"> JBTD approach should be looked at</a>. Therein is real disruption, perhaps.</p><p>Christensen had his milkshakes. Ireland’s innovators might shake the market up more by exploring what problems drones really solve, more about “drones to be done”, if you like. That’s where user-centred design can help: watch and ask people first.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=5ed72d17c157\" width=\"1\" /><hr /><p><a href=\"https://uxplanet.org/all-manna-of-drone-design-5ed72d17c157\">All Manna of Drone UX Design</a> was originally published in <a href=\"https://uxplanet.org\">UX Planet</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>",
+    "published_iso": "2025-08-25T10:55:13",
+    "source_feed": "https://uxplanet.org/feed"
+  }
+]
