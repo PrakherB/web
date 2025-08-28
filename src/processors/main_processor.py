@@ -5,12 +5,9 @@ from pathlib import Path
 from typing import Dict, Optional
 from datetime import datetime
 
-# Add the parent directory to Python path to import from src modules
-sys.path.append(str(Path(__file__).parent.parent))
-
-from extractors.content_extractor import WebContentExtractor
-from classifiers.naics_classifier import NAICSClassifier
-from extractors.scraping_api_backup import ScrapingAPIBackup
+from src.extractors.content_extractor import WebContentExtractor
+from src.classifiers.naics_classifier import NAICSClassifier
+from src.extractors.scraping_api_backup import ScrapingAPIBackup
 
 class WebsiteAnalysisProcessor:
     def __init__(self, use_api_backup: bool = False, api_key: str = None):

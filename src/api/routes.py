@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from src.processors.main_processor import MainProcessor
 from src.classifiers.naics_classifier import NAICSClassifier
-from src.extractors.content_extractor import ContentExtractor
+from src.extractors.content_extractor import WebContentExtractor
 from src.utils.validation import ValidationUtils
 from src.search.vector_search import find_similar_designs
 import logging
@@ -17,7 +17,7 @@ CORS(app)
 # Initialize components
 processor = MainProcessor()
 classifier = NAICSClassifier()
-extractor = ContentExtractor()
+extractor = WebContentExtractor()
 validator = ValidationUtils()
 
 @app.route('/health', methods=['GET'])
