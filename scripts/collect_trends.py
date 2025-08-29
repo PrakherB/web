@@ -8,6 +8,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.trends.collector import RSSCollector
 from src.extractors.content_extractor import WebContentExtractor
+from src.trends.processor import TextProcessor
 
 # A list of authoritative design trend RSS feeds
 DESIGN_BLOG_FEEDS = [
@@ -31,24 +32,27 @@ def main():
         print("No articles collected from RSS feeds. Exiting.")
         return
 
-    print(f"📰 Collected {len(articles)} articles from RSS feeds. Now fetching full content...")
+    print(f"📰 Collected {len(articles)} articles from RSS feeds. Now fetching and processing full content...")
 
     content_extractor = WebContentExtractor()
+    text_processor = TextProcessor()
 
     for article in articles:
         try:
-            print(f"   -> Fetching content for: {article['link']}")
+            print(f"   -> Processing: {article['link']}")
             content_data = content_extractor.extract_website_content(article['link'])
-            if content_data:
-                article['full_content'] = content_data.get('main_content', '')
-                article['full_content_headers'] = content_data.get('headers', {})
+
+            if content_data and content_data.get('main_content'):
+                full_content = content_data['main_content']
+                cleaned_content = text_processor.clean_text(full_content)
+                content_chunks = text_processor.chunk_text(cleaned_content)
+                article['content_chunks'] = content_chunks
             else:
-                article['full_content'] = ''
-                article['full_content_headers'] = {}
+                article['content_chunks'] = []
+
         except Exception as e:
-            print(f"      ERROR fetching content for {article['link']}: {e}")
-            article['full_content'] = ''
-            article['full_content_headers'] = {}
+            print(f"      ERROR processing article {article['link']}: {e}")
+            article['content_chunks'] = []
 
     content_extractor.close()
 
