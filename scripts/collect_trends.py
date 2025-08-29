@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.trends.collector import RSSCollector
 from src.extractors.content_extractor import WebContentExtractor
 from src.trends.processor import TextProcessor
+from src.trends.classifier import TrendClassifier
 
 # A list of authoritative design trend RSS feeds
 DESIGN_BLOG_FEEDS = [
@@ -32,10 +33,11 @@ def main():
         print("No articles collected from RSS feeds. Exiting.")
         return
 
-    print(f"📰 Collected {len(articles)} articles from RSS feeds. Now fetching and processing full content...")
+    print(f"📰 Collected {len(articles)} articles from RSS feeds. Now fetching, processing, and classifying content...")
 
     content_extractor = WebContentExtractor()
     text_processor = TextProcessor()
+    trend_classifier = TrendClassifier()
 
     for article in articles:
         try:
@@ -46,13 +48,22 @@ def main():
                 full_content = content_data['main_content']
                 cleaned_content = text_processor.clean_text(full_content)
                 content_chunks = text_processor.chunk_text(cleaned_content)
-                article['content_chunks'] = content_chunks
+
+                classified_chunks = []
+                for chunk in content_chunks:
+                    categories = trend_classifier.classify_chunk(chunk)
+                    if categories:
+                        classified_chunks.append({
+                            "chunk_text": chunk,
+                            "categories": categories
+                        })
+                article['classified_chunks'] = classified_chunks
             else:
-                article['content_chunks'] = []
+                article['classified_chunks'] = []
 
         except Exception as e:
             print(f"      ERROR processing article {article['link']}: {e}")
-            article['content_chunks'] = []
+            article['classified_chunks'] = []
 
     content_extractor.close()
 

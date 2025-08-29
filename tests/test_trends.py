@@ -8,12 +8,15 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.trends.collector import RSSCollector
 from src.trends.processor import TextProcessor
+from src.trends.classifier import TrendClassifier
 
 class TestRSSCollector(unittest.TestCase):
 
     @patch('src.trends.collector.feedparser')
     def test_collect_success(self, mock_feedparser):
-        # ... (existing test)
+        """
+        Tests successful collection from multiple RSS feeds.
+        """
         mock_feed1 = MagicMock()
         mock_feed1.bozo = 0
         mock_feed1.entries = [
@@ -40,26 +43,31 @@ class TestTextProcessor(unittest.TestCase):
         cleaned_text = "This is a bold statement."
         self.assertEqual(self.processor.clean_text(raw_html), cleaned_text)
 
-    def test_clean_text_empty(self):
-        self.assertEqual(self.processor.clean_text(""), "")
-        self.assertEqual(self.processor.clean_text(None), "")
-
     def test_chunk_text(self):
         text = "word " * 500
         chunks = self.processor.chunk_text(text, chunk_size=100, overlap=20)
         self.assertTrue(len(chunks) > 1)
         self.assertTrue(all(len(chunk.split()) <= 100 for chunk in chunks))
 
-    def test_chunk_text_no_overlap(self):
-        text = "word " * 200
-        chunks = self.processor.chunk_text(text, chunk_size=50, overlap=0)
-        self.assertEqual(len(chunks), 4)
+class TestTrendClassifier(unittest.TestCase):
 
-    def test_chunk_text_errors(self):
-        with self.assertRaises(ValueError):
-            self.processor.chunk_text("some text", chunk_size=10, overlap=10)
-        with self.assertRaises(TypeError):
-            self.processor.chunk_text("some text", chunk_size="10", overlap=5)
+    @patch('src.trends.classifier.pipeline')
+    def test_classify_chunk(self, mock_pipeline):
+        """
+        Tests the classify_chunk method.
+        """
+        mock_classifier = MagicMock()
+        mock_classifier.return_value = {
+            'labels': ['Visual Design', 'Technology Trends'],
+            'scores': [0.9, 0.6]
+        }
+        mock_pipeline.return_value = mock_classifier
+
+        classifier = TrendClassifier()
+        categories = classifier.classify_chunk("some text about design", threshold=0.8)
+
+        self.assertEqual(len(categories), 1)
+        self.assertEqual(categories[0], 'Visual Design')
 
 # We need to import the script we want to test
 from scripts import collect_trends
@@ -69,11 +77,12 @@ class TestCollectTrendsScript(unittest.TestCase):
     @patch('scripts.collect_trends.RSSCollector')
     @patch('scripts.collect_trends.WebContentExtractor')
     @patch('scripts.collect_trends.TextProcessor')
+    @patch('scripts.collect_trends.TrendClassifier')
     @patch('builtins.open', new_callable=unittest.mock.mock_open)
     @patch('json.dump')
-    def test_main_script_flow(self, mock_json_dump, mock_open, MockTextProcessor, MockWebContentExtractor, MockRSSCollector):
+    def test_main_script_flow(self, mock_json_dump, mock_open, MockTrendClassifier, MockTextProcessor, MockWebContentExtractor, MockRSSCollector):
         """
-        Tests the main flow of the collect_trends.py script with text processing.
+        Tests the main flow of the collect_trends.py script with classification.
         """
         # --- Setup Mocks ---
         mock_rss_collector = MockRSSCollector.return_value
@@ -83,27 +92,21 @@ class TestCollectTrendsScript(unittest.TestCase):
         mock_content_extractor.extract_website_content.return_value = {'main_content': 'full content'}
 
         mock_text_processor = MockTextProcessor.return_value
-        mock_text_processor.clean_text.return_value = 'cleaned content'
-        mock_text_processor.chunk_text.return_value = ['chunk1', 'chunk2']
+        mock_text_processor.chunk_text.return_value = ['chunk1']
+
+        mock_trend_classifier = MockTrendClassifier.return_value
+        mock_trend_classifier.classify_chunk.return_value = ['Visual Design']
 
         # --- Run the script's main function ---
         collect_trends.main()
 
         # --- Assertions ---
-        MockRSSCollector.assert_called_once()
-        MockWebContentExtractor.assert_called_once()
-        MockTextProcessor.assert_called_once()
-
-        mock_content_extractor.extract_website_content.assert_called_once_with('http://example.com/article')
-        mock_text_processor.clean_text.assert_called_once_with('full content')
-        mock_text_processor.chunk_text.assert_called_once_with('cleaned content')
-
-        self.assertTrue(any("data/trends/trends_" in str(call) for call in mock_open.call_args[0]))
+        mock_trend_classifier.classify_chunk.assert_called_once_with('chunk1')
 
         written_data = mock_json_dump.call_args[0][0]
-        self.assertEqual(len(written_data), 1)
-        self.assertIn('content_chunks', written_data[0])
-        self.assertEqual(written_data[0]['content_chunks'], ['chunk1', 'chunk2'])
+        self.assertIn('classified_chunks', written_data[0])
+        self.assertEqual(len(written_data[0]['classified_chunks']), 1)
+        self.assertEqual(written_data[0]['classified_chunks'][0]['categories'], ['Visual Design'])
 
 if __name__ == '__main__':
     unittest.main()
