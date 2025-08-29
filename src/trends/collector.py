@@ -2,6 +2,8 @@ import feedparser
 import logging
 import time
 from datetime import datetime
+import os
+import requests
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -60,3 +62,44 @@ class RSSCollector:
 
         logging.info(f"Finished RSS feed collection. Total entries collected: {len(all_entries)}")
         return all_entries
+
+class DribbbleCollector:
+    """
+    Collects design trend data from the Dribbble API.
+    """
+    BASE_URL = "https://api.dribbble.com/v2/user/shots"
+
+    def __init__(self, api_key: str):
+        if not api_key:
+            raise ValueError("Dribbble API key is required.")
+        self.api_key = api_key
+        self.headers = {'Authorization': f'Bearer {self.api_key}'}
+
+    def _transform_shot_to_article(self, shot: dict) -> dict:
+        """
+        Transforms a Dribbble shot object into the standard article format.
+        """
+        return {
+            'title': shot.get('title', 'No Title'),
+            'link': shot.get('html_url', 'No Link'),
+            'summary': shot.get('description', 'No Summary'),
+            'published_iso': shot.get('created_at', datetime.now().isoformat()),
+            'source_feed': 'Dribbble API'
+        }
+
+    def collect(self, query: str = "web design trends", per_page: int = 20) -> list:
+        """
+        Fetches and transforms 'shots' from Dribbble based on a query.
+        """
+        params = {'q': query, 'per_page': per_page}
+        transformed_shots = []
+        try:
+            response = requests.get(self.BASE_URL, headers=self.headers, params=params)
+            response.raise_for_status()
+            shots = response.json()
+            for shot in shots:
+                transformed_shots.append(self._transform_shot_to_article(shot))
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Failed to fetch data from Dribbble API: {e}")
+
+        return transformed_shots
