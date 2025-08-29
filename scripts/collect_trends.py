@@ -49,6 +49,7 @@ def main():
                 cleaned_content = text_processor.clean_text(full_content)
                 content_chunks = text_processor.chunk_text(cleaned_content)
 
+                # Classify chunks
                 classified_chunks = []
                 for chunk in content_chunks:
                     categories = trend_classifier.classify_chunk(chunk)
@@ -58,12 +59,23 @@ def main():
                             "categories": categories
                         })
                 article['classified_chunks'] = classified_chunks
+
+                # Calculate recency score
+                article['recency_score'] = text_processor.calculate_recency_score(article['published_iso'])
+
+                # Map to industries
+                article['relevant_industries'] = trend_classifier.classify_industries(cleaned_content)
+
             else:
                 article['classified_chunks'] = []
+                article['recency_score'] = 0.0
+                article['relevant_industries'] = []
 
         except Exception as e:
             print(f"      ERROR processing article {article['link']}: {e}")
             article['classified_chunks'] = []
+            article['recency_score'] = 0.0
+            article['relevant_industries'] = []
 
     content_extractor.close()
 

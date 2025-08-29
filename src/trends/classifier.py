@@ -1,4 +1,6 @@
 from transformers import pipeline
+import json
+from pathlib import Path
 
 class TrendClassifier:
     """
@@ -37,3 +39,34 @@ class TrendClassifier:
                 top_categories.append(results['labels'][i])
 
         return top_categories
+
+    def _load_industries(self):
+        """
+        Loads industry titles from the NAICS data file.
+        """
+        naics_file = Path(__file__).parent.parent.parent / "data" / "naics" / "comprehensive_naics_codes.json"
+        if not hasattr(self, '_industry_list') or not self._industry_list:
+            with open(naics_file, 'r') as f:
+                naics_data = json.load(f)
+            # We only want the titles for classification
+            self._industry_list = [details['title'] for details in naics_data.values()]
+        return self._industry_list
+
+    def classify_industries(self, text: str, threshold=0.6, top_n=3) -> list[str]:
+        """
+        Classifies text against a list of industries.
+        """
+        if not self.classifier:
+            self.load_model()
+
+        industries = self._load_industries()
+
+        results = self.classifier(text, industries, multi_label=True)
+
+        # Get the top N industries above the threshold
+        relevant_industries = []
+        for i, score in enumerate(results['scores']):
+            if score > threshold:
+                relevant_industries.append(results['labels'][i])
+
+        return relevant_industries[:top_n]

@@ -1,5 +1,7 @@
 import re
 import html
+from datetime import datetime, timezone
+import math
 
 class TextProcessor:
     """
@@ -51,3 +53,36 @@ class TextProcessor:
                 chunks.append(chunk)
 
         return chunks
+
+    def calculate_recency_score(self, published_date_iso: str, decay_factor: float = 365) -> float:
+        """
+        Calculates a recency score for an article.
+
+        :param published_date_iso: The publication date in ISO 8601 format.
+        :param decay_factor: Controls how quickly the score decays. A smaller value means faster decay.
+        :return: A score between 0 and 1.
+        """
+        try:
+            # The fromisoformat method does not handle all timezone formats, so we handle Z manually
+            if published_date_iso.endswith('Z'):
+                published_date_iso = published_date_iso[:-1] + '+00:00'
+
+            published_date = datetime.fromisoformat(published_date_iso)
+
+            # Make sure the date is timezone-aware for correct comparison
+            if published_date.tzinfo is None:
+                published_date = published_date.replace(tzinfo=timezone.utc)
+
+            current_date = datetime.now(timezone.utc)
+            days_since_published = (current_date - published_date).days
+
+            if days_since_published < 0:
+                return 1.0  # For future-dated articles
+
+            # Exponential decay formula
+            score = math.exp(-days_since_published / decay_factor)
+            return round(score, 4)
+
+        except (ValueError, TypeError):
+            # If date parsing fails, return a neutral score
+            return 0.5
