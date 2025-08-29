@@ -6,7 +6,8 @@ from datetime import datetime
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.trends.collector import RSSCollector
+import os
+from src.trends.collector import RSSCollector, DribbbleCollector
 from src.extractors.content_extractor import WebContentExtractor
 from src.trends.processor import TextProcessor
 from src.trends.classifier import TrendClassifier
@@ -26,14 +27,26 @@ def main():
     """
     print("🚀 Starting trend data collection...")
 
+    # --- RSS Collection ---
     rss_collector = RSSCollector(feed_urls=DESIGN_BLOG_FEEDS)
     articles = rss_collector.collect()
 
+    # --- Dribbble Collection ---
+    dribbble_api_key = os.getenv("DRIBBBLE_API_KEY")
+    if dribbble_api_key:
+        print("🏀 Dribbble API key found. Collecting shots...")
+        dribbble_collector = DribbbleCollector(api_key=dribbble_api_key)
+        dribbble_articles = dribbble_collector.collect()
+        print(f"   -> Collected {len(dribbble_articles)} articles from Dribbble.")
+        articles.extend(dribbble_articles)
+    else:
+        print("⚠️ Dribbble API key not found. Skipping Dribbble collection.")
+
     if not articles:
-        print("No articles collected from RSS feeds. Exiting.")
+        print("No articles collected. Exiting.")
         return
 
-    print(f"📰 Collected {len(articles)} articles from RSS feeds. Now fetching, processing, and classifying content...")
+    print(f"📰 Processing {len(articles)} articles...")
 
     content_extractor = WebContentExtractor()
     text_processor = TextProcessor()
