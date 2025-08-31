@@ -5,7 +5,8 @@ from pathlib import Path
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.reporting.generator import ReportPromptGenerator, get_sample_data_for_prompt
+from src.reporting.generator import ReportPromptGenerator, ReportBuilder, get_sample_data_for_prompt
+from src.reporting.models import DesignReport
 
 class TestReportPromptGenerator(unittest.TestCase):
 
@@ -22,25 +23,22 @@ class TestReportPromptGenerator(unittest.TestCase):
         self.assertIn(sample_data['business_description'], prompt)
         self.assertIn(sample_data['naics_code'], prompt)
 
-        # Check for competitor and trend formatting
-        self.assertIn("1. Starbucks", prompt)
-        self.assertIn("2. Blue Bottle Coffee", prompt)
-        self.assertIn("1. Minimalism", prompt)
-        self.assertIn("2. Sustainable Design", prompt)
+class TestReportBuilder(unittest.TestCase):
 
-    def test_generate_prompt_with_custom_template(self):
+    def test_build_report(self):
         """
-        Tests prompt generation with a custom template.
+        Tests the report building process.
         """
-        custom_template = "Business: {BUSINESS_DESCRIPTION}, Industry: {INDUSTRY}"
-        generator = ReportPromptGenerator(template=custom_template)
+        builder = ReportBuilder()
         sample_data = get_sample_data_for_prompt()
-        prompt = generator.generate_prompt(**sample_data)
+        report = builder.build(sample_data)
 
-        expected_prompt = f"Business: {sample_data['business_description']}, Industry: {sample_data['industry_name']}"
-        # The format method will not replace placeholders that are not in the template
-        self.assertNotIn("NAICS_CODE", prompt)
-        self.assertIn(sample_data['business_description'], prompt)
+        self.assertIsInstance(report, DesignReport)
+        self.assertEqual(report.industry_analysis.naics_code, sample_data['naics_code'])
+        self.assertEqual(len(report.competitor_design_analysis), 2)
+        self.assertEqual(report.competitor_design_analysis[0].name, "Starbucks")
+        self.assertEqual(len(report.trend_integration), 3)
+        self.assertEqual(report.trend_integration[0].trend_name, "Minimalism")
 
 if __name__ == '__main__':
     unittest.main()

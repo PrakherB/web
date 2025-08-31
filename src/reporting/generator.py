@@ -1,3 +1,71 @@
+from .models import (
+    ExecutiveSummary,
+    IndustryAnalysis,
+    CompetitorAnalysis,
+    TrendIntegration,
+    CustomRecommendation,
+    ActionPlan,
+    DesignReport,
+)
+
+class ReportBuilder:
+    """
+    Assembles the final design report from various data components.
+    """
+    def build(self, data: dict) -> DesignReport:
+        """
+        Builds the report from a dictionary of data.
+        """
+        # For now, we use placeholder data for many sections
+        executive_summary = ExecutiveSummary(
+            industry_classification_confidence=data.get('classification_confidence', 0.95),
+            key_design_opportunities=["Opportunity 1", "Opportunity 2"],
+            trend_alignment_score=0.8
+        )
+
+        industry_analysis = IndustryAnalysis(
+            naics_code=data.get('naics_code', '000000'),
+            description=data.get('industry_description', 'N/A'),
+            industry_specific_design_patterns=["Pattern 1", "Pattern 2"],
+            competitive_landscape_overview="A competitive market with several key players."
+        )
+
+        competitor_analysis = [
+            CompetitorAnalysis(**comp) for comp in data.get('competitors', [])
+        ]
+
+        trend_integration = [
+            TrendIntegration(
+                trend_name=trend['name'],
+                industry_application_examples=["Example 1"],
+                implementation_difficulty_score=3
+            ) for trend in data.get('trends', [])
+        ]
+
+        custom_recommendations = [
+            CustomRecommendation(
+                suggestion="Improve call-to-action buttons.",
+                priority_ranking=1,
+                rationale="To increase conversions.",
+                implementation_complexity="Low"
+            )
+        ]
+
+        action_plan = ActionPlan(
+            quick_wins=["Update hero image"],
+            medium_term_improvements=["Redesign services page"],
+            long_term_strategic_changes=["Implement a full design system"]
+        )
+
+        return DesignReport(
+            executive_summary=executive_summary,
+            industry_analysis=industry_analysis,
+            competitor_design_analysis=competitor_analysis,
+            trend_integration=trend_integration,
+            custom_recommendations=custom_recommendations,
+            action_plan=action_plan
+        )
+
 class ReportPromptGenerator:
     """
     Generates a detailed prompt for the AI content synthesis engine.
@@ -91,9 +159,24 @@ def get_sample_data_for_prompt():
         "business_description": "A local coffee shop focused on high-quality, ethically sourced beans and a cozy atmosphere.",
         "naics_code": "722515",
         "competitors": [
-            {"name": "Starbucks", "design_summary": "Standardized, corporate design with a focus on efficiency."},
-            {"name": "Blue Bottle Coffee", "design_summary": "Minimalist, clean design with a focus on the coffee-making process."},
-            {"name": "Peet's Coffee", "design_summary": "Traditional, dark wood design with a classic coffeehouse feel."}
+            {
+                "name": "Starbucks",
+                "design_summary": "Standardized, corporate design with a focus on efficiency.",
+                "competitor_url": "https://starbucks.com",
+                "screenshot_url": "https://example.com/screenshot_starbucks.jpg",
+                "design_pattern_analysis": "Grid-based layout with clear calls to action.",
+                "strengths": ["Strong brand recognition", "Efficient ordering process"],
+                "improvement_opportunities": ["Lacks unique personality", "Can feel impersonal"]
+            },
+            {
+                "name": "Blue Bottle Coffee",
+                "design_summary": "Minimalist, clean design with a focus on the coffee-making process.",
+                "competitor_url": "https://bluebottlecoffee.com",
+                "screenshot_url": "https://example.com/screenshot_bluebottle.jpg",
+                "design_pattern_analysis": "Asymmetrical layout with high-quality photography.",
+                "strengths": ["Aesthetic appeal", "Focus on quality"],
+                "improvement_opportunities": ["Navigation could be clearer", "Less content density"]
+            }
         ],
         "trends": [
             {"name": "Minimalism", "summary": "Using simple, clean layouts with a lot of white space."},
