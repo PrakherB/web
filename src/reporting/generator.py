@@ -43,12 +43,7 @@ class ReportBuilder:
         ]
 
         custom_recommendations = [
-            CustomRecommendation(
-                suggestion="Improve call-to-action buttons.",
-                priority_ranking=1,
-                rationale="To increase conversions.",
-                implementation_complexity="Low"
-            )
+            CustomRecommendation(**rec) for rec in data.get('custom_recommendations', [])
         ]
 
         action_plan = ActionPlan(

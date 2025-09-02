@@ -1,4 +1,4 @@
-from typing import Dict, bool
+from typing import Dict
 from urllib.parse import urlparse
 
 def validate_url(url: str) -> bool:

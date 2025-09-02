@@ -93,29 +93,68 @@ class TestTrendClassifier(unittest.TestCase):
 
 # We need to import the script we want to test
 from scripts import collect_trends
+from src.trends import main as trends_main
 
 class TestCollectTrendsScript(unittest.TestCase):
 
-    @patch('scripts.collect_trends.RSSCollector')
-    @patch('scripts.collect_trends.WebContentExtractor')
-    @patch('scripts.collect_trends.TextProcessor')
-    @patch('scripts.collect_trends.TrendClassifier')
-    @patch('os.getenv')
+    @patch('scripts.collect_trends.collect_and_process_trends')
     @patch('builtins.open', new_callable=unittest.mock.mock_open)
     @patch('json.dump')
-    def test_main_script_flow(self, mock_json_dump, mock_open, mock_getenv, MockTrendClassifier, MockTextProcessor, MockWebContentExtractor, MockRSSCollector):
+    def test_main_script_flow(self, mock_json_dump, mock_open, mock_collect_and_process):
         """
-        Tests the main flow of the collect_trends.py script with all processing steps.
+        Tests the main flow of the collect_trends.py script, mocking the core processing function.
         """
         # --- Setup Mocks ---
-        mock_getenv.return_value = "fake_dribbble_key"
+        mock_collect_and_process.return_value = [
+            {
+                'link': 'http://example.com/article',
+                'published_iso': datetime.now().isoformat(),
+                'recency_score': 0.99,
+                'relevant_industries': ['Technology']
+            }
+        ]
+
+        # --- Run the script's main function ---
+        collect_trends.main()
+
+        # --- Assertions ---
+        # Ensure the processing function was called
+        mock_collect_and_process.assert_called_once()
+
+        # Ensure the file was written to
+        mock_open.assert_called()
+        mock_json_dump.assert_called_once()
+
+        # Check the content that was supposed to be written
+        written_data = mock_json_dump.call_args[0][0]
+        self.assertEqual(len(written_data), 1)
+        self.assertEqual(written_data[0]['relevant_industries'], ['Technology'])
+
+
+class TestFullTrendProcessing(unittest.TestCase):
+
+    @patch('src.trends.main.RSSCollector')
+    @patch('src.trends.main.DribbbleCollector')
+    @patch('src.trends.main.WebContentExtractor')
+    @patch('src.trends.main.TextProcessor')
+    @patch('src.trends.main.TrendClassifier')
+    def test_collect_and_process_trends(self, MockTrendClassifier, MockTextProcessor, MockWebContentExtractor, MockDribbbleCollector, MockRSSCollector):
+        """
+        Tests the collect_and_process_trends function with all sub-components mocked.
+        This provides a more granular integration test of this specific function.
+        """
+        # --- Setup Mocks ---
         mock_rss_collector = MockRSSCollector.return_value
         mock_rss_collector.collect.return_value = [{'link': 'http://example.com/article', 'published_iso': datetime.now().isoformat()}]
+
+        mock_dribbble_collector = MockDribbbleCollector.return_value
+        mock_dribbble_collector.collect.return_value = []
 
         mock_content_extractor = MockWebContentExtractor.return_value
         mock_content_extractor.extract_website_content.return_value = {'main_content': 'full content'}
 
         mock_text_processor = MockTextProcessor.return_value
+        mock_text_processor.clean_text.return_value = 'full content'
         mock_text_processor.chunk_text.return_value = ['chunk1']
         mock_text_processor.calculate_recency_score.return_value = 0.99
 
@@ -123,18 +162,15 @@ class TestCollectTrendsScript(unittest.TestCase):
         mock_trend_classifier.classify_chunk.return_value = ['Visual Design']
         mock_trend_classifier.classify_industries.return_value = ['Technology']
 
-        # --- Run the script's main function ---
-        collect_trends.main()
+        # --- Run the function ---
+        results = trends_main.collect_and_process_trends(feed_urls=['http://dummy.url/rss'], dribbble_api_key='fake_key')
 
         # --- Assertions ---
-        mock_trend_classifier.classify_industries.assert_called_once()
-        mock_text_processor.calculate_recency_score.assert_called_once()
-
-        written_data = mock_json_dump.call_args[0][0]
-        self.assertIn('recency_score', written_data[0])
-        self.assertEqual(written_data[0]['recency_score'], 0.99)
-        self.assertIn('relevant_industries', written_data[0])
-        self.assertEqual(written_data[0]['relevant_industries'], ['Technology'])
+        self.assertEqual(len(results), 1)
+        article = results[0]
+        self.assertEqual(article['recency_score'], 0.99)
+        self.assertEqual(article['relevant_industries'], ['Technology'])
+        mock_content_extractor.close.assert_called_once()
 
 if __name__ == '__main__':
     unittest.main()
