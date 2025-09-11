@@ -1,18 +1,28 @@
 """
 Main API routes for NAICS classification
 """
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 from src.processors.main_processor import MainProcessor
 from src.classifiers.naics_classifier import NAICSClassifier
 from src.extractors.content_extractor import WebContentExtractor
 from src.utils.validation import ValidationUtils
 from src.search.vector_search import find_similar_designs
+from src.analytics.metrics import AnalyticsMetrics
+from src.reporting.generator import ReportGenerator
+from src.database.models import User, db
+from src.api.auth import generate_token
+from werkzeug.security import generate_password_hash, check_password_hash
+from config.database import DatabaseConfig
+from src.database.manager import db_manager
 import logging
 import traceback
 
 app = Flask(__name__)
 CORS(app)
+app.config['SQLALCHEMY_DATABASE_URI'] = DatabaseConfig.get_database_uri()
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db.init_app(app)
 
 # Initialize components
 processor = MainProcessor()
@@ -31,49 +41,33 @@ def health_check():
 
 @app.route('/classify', methods=['POST'])
 def classify_business():
-    """Classify business based on URL or text"""
+    """Classify business based on URL"""
     try:
         data = request.get_json()
         
         # Validate input
-        if not data or not any(key in data for key in ['url', 'text']):
+        if not data or 'url' not in data:
             return jsonify({
-                'error': 'Missing required field: url or text'
+                'error': 'Missing required field: url'
             }), 400
         
-        result = {}
+        url = data['url']
         
-        if 'url' in data:
-            # Extract content from URL
-            content = extractor.extract_from_url(data['url'])
-            if not content:
-                return jsonify({
-                    'error': 'Failed to extract content from URL'
-                }), 400
-                
-            # Classify content
-            classification = classifier.classify(content)
-            result = {
-                'url': data['url'],
-                'content_preview': content[:200] + '...' if len(content) > 200 else content,
-                'classification': classification,
-                'confidence': classification.get('confidence', 0),
-                'primary_naics': classification.get('primary_naics'),
-                'secondary_naics': classification.get('secondary_naics', [])
-            }
+        # 1. Processing
+        analysis_result = processor.process_url(url)
+
+        if not analysis_result:
+            return jsonify({'error': 'Failed to process the URL.'}), 400
+
+        # 2. Analytics
+        metrics_calculator = AnalyticsMetrics(analysis_result)
+        key_metrics = metrics_calculator.calculate_key_metrics()
+
+        # 3. Reporting
+        report_generator = ReportGenerator(analysis_result, key_metrics)
+        report = report_generator.generate_comprehensive_report()
         
-        elif 'text' in data:
-            # Classify provided text
-            classification = classifier.classify(data['text'])
-            result = {
-                'text_preview': data['text'][:200] + '...' if len(data['text']) > 200 else data['text'],
-                'classification': classification,
-                'confidence': classification.get('confidence', 0),
-                'primary_naics': classification.get('primary_naics'),
-                'secondary_naics': classification.get('secondary_naics', [])
-            }
-        
-        return jsonify(result)
+        return jsonify(report)
         
     except Exception as e:
         logging.error(f"Classification error: {str(e)}")
@@ -179,6 +173,40 @@ def search_designs():
             'error': 'Internal server error',
             'message': str(e)
         }), 500
+
+@app.route('/signup', methods=['POST'])
+def signup():
+    data = request.get_json()
+    hashed_password = generate_password_hash(data['password'], method='sha256')
+    new_user = User(username=data['username'], email=data['email'], password_hash=hashed_password)
+    db.session.add(new_user)
+    db.session.commit()
+    return jsonify({'message': 'New user created!'})
+
+@app.route('/login', methods=['POST'])
+def login():
+    auth = request.authorization
+    if not auth or not auth.username or not auth.password:
+        return make_response('Could not verify', 401, {'WWW-Authenticate': 'Basic realm="Login required!"'})
+
+    user = User.query.filter_by(username=auth.username).first()
+    if not user:
+        return make_response('Could not verify', 401, {'WWW-Authenticate': 'Basic realm="Login required!"'})
+
+    if check_password_hash(user.password_hash, auth.password):
+        token = generate_token(user.id)
+        return jsonify({'token': token})
+
+    return make_response('Could not verify', 401, {'WWW-Authenticate': 'Basic realm="Login required!"'})
+
+@app.route('/sessions', methods=['GET'])
+def get_sessions():
+    userId = request.args.get('userId')
+    if not userId:
+        return jsonify({'error': 'Missing userId parameter'}), 400
+
+    sessions = db_manager.get_analysis_sessions(user_id=userId)
+    return jsonify([session.to_dict() for session in sessions])
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
